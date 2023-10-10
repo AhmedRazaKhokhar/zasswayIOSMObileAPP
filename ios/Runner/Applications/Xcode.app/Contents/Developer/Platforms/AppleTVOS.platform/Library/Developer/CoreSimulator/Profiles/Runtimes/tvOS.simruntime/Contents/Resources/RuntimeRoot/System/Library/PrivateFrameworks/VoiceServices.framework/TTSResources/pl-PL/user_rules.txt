@@ -1,0 +1,9 @@
+[header]
+language = PLP
+
+[data]
+/\bGame Center\b/i --> "\e/+'gEjm_'sEn.tEr\e/+"
+/\bLive Loops\b/i --> "\e/+'lAjv.'lups\e/+"
+/\bPhoto Booth\b/i --> " PhotoBooth "
+/\bNoodle w Pudle\b/i --> "\e/+'nudlE.f.'pudlE\e/+"
+/\bCash and Carry\b/i --> "\e/+'kAS.En.'kEr.i0\e/+"

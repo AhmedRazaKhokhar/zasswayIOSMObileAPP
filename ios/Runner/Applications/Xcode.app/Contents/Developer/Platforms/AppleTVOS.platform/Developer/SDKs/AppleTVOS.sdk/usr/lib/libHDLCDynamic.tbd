@@ -1,0 +1,17 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-tvos, arm64e-tvos ]
+uuids:
+  - target:          arm64-tvos
+    value:           5A7F0A7B-2AD5-3CAF-88E2-AEBAA2CD4846
+  - target:          arm64e-tvos
+    value:           A65ABF0E-9BA6-3513-9EB5-9F4192437A6F
+install-name:    '/usr/lib/libHDLCDynamic.dylib'
+exports:
+  - targets:         [ arm64-tvos, arm64e-tvos ]
+    symbols:         [ _CRCCCITT, _FCSTable, _HDLCFrameCloneDownlink, _HDLCFrameCreateDownlink, 
+                       _HDLCFrameCreateDownlinkFake, _HDLCFrameCreateUplink, _HDLCFrameEncode, 
+                       _HDLCFrameEncodeAndCache, _HDLCFrameFree, _HDLCFrameGetFreeSpace, 
+                       _HDLCFrameGetMaxEncodedLength, _HDLCFrameInject, _HDLCFrameInjectUnsignedChar, 
+                       _HDLCFrameInjectUnsignedInt, _HDLCFrameInjectUnsignedShort ]
+...

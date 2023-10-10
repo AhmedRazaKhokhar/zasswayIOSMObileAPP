@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <head>
+        <style>
+            .template {
+                padding: 89 0 94;
+                background-color: transparent;
+            }
+            .title {
+                tv-text-style: headline;
+                text-align: center;
+                max-width: 960;
+                tv-text-max-lines: 4;
+            }
+            .description {
+                tv-text-style: body;
+                tv-text-max-lines: 6;
+                text-align: center;
+                max-width: 960;
+                margin: 22 0 0;
+            }
+            .text {
+                tv-text-style: caption2;
+                tv-text-max-lines: 2;
+                text-align: center;
+                max-width: 960;
+                margin: 0 0 21;
+            }
+            .alertLil {
+                background-color: rgba(255, 255, 255, 0.1);
+                tv-highlight-color: rgba(255, 255, 255, 0.5);
+                width: 930;
+                height: 110;
+            }
+            .alertLilImg {
+                tv-position: leading;
+            }
+            .alertLilTitle {
+                color: white;
+                tv-highlight-color: white;
+                tv-text-style: callout;
+                font-weight: emphasized;
+                tv-text-highlight-style: marquee-on-highlight;
+                text-align: natural;
+                tv-text-max-lines: 1;
+                tv-position: center;
+                tv-align: leading;
+                margin: 0 20;
+            }
+            .alertLilSubtitle {
+                tv-text-style: callout;
+                color: rgba(255, 255, 255, 0.6);
+                tv-highlight-color: rgba(255, 255, 255, 0.6);
+                text-align: natural;
+                tv-text-max-lines: 1;
+                tv-position: center;
+                tv-align: leading;
+                margin: 0 20;
+            }
+            .alertLilDecorationLabel {
+                tv-text-style: callout;
+                color: white;
+                tv-highlight-color: white;
+                text-align: natural;
+                tv-text-max-lines: 1;
+                tv-position: trailing;
+                margin: 0 20;
+            }
+            @media tv-template and (tv-theme: light) {
+                .title, .description, .text {
+                    color: rgb(0, 0, 0);
+                }
+            }
+            @media tv-template and (tv-theme: dark) {
+                .title, .description, .text {
+                    color: rgb(255, 255, 255);
+                }
+            }
+        </style>
+    </head>
+    <alertTemplate class="template">
+        <title class="title"/>
+        <description class="description"/>
+        <button />
+        <listItemLockup class="alertLil">
+            <img class="alertLilImg" />
+            <title class="alertLilTitle" />
+            <subtitle class="alertLilSubtitle" />
+            <decorationLabel class="alertLilDecorationLabel" />
+        </listItemLockup>
+        <text class="text"/>
+    </alertTemplate>
+</document>

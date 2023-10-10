@@ -1,0 +1,68 @@
+{
+  "storage" : "model.espresso.weights",
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 200,
+  "metadata_in_weights" : [
+
+  ],
+  "layers" : [
+    {
+      "nB" : 12288,
+      "top" : "fw_dense_1_relu_output",
+      "has_biases" : 1,
+      "blob_biases" : 1,
+      "nC" : 32,
+      "weights" : {
+        "W_U8" : 3,
+        "per_ch_qscale" : 7,
+        "per_ch_qbias" : 5
+      },
+      "type" : "inner_product",
+      "has_relu" : 1,
+      "bottom" : "input1",
+      "debug_info" : "fw_dense_1",
+      "has_tanh" : 0,
+      "hint_fallback_from_metal" : 1,
+      "name" : "fw_dense_1",
+      "has_prelu" : 0
+    },
+    {
+      "nB" : 32,
+      "top" : "fw_dense_2_output",
+      "has_biases" : 1,
+      "weights" : {
+        "W_U8" : 11,
+        "per_ch_qscale" : 15,
+        "per_ch_qbias" : 13
+      },
+      "nC" : 32,
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "fw_dense_1_relu_output",
+      "blob_biases" : 9,
+      "has_tanh" : 0,
+      "debug_info" : "fw_dense_2",
+      "name" : "fw_dense_2",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "fw_dense_2_output",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "fw_dense_2_relu",
+      "top" : "output1",
+      "type" : "activation",
+      "name" : "fw_dense_2_relu",
+      "attributes" : {
+        "is_output" : 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+.Dd December 9, 2005
+.Dt AMLINT 1
+.Os "Mac OS X"
+.Sh NAME
+.Nm amlint
+.Nd check Automator actions for problems
+.Sh SYNOPSIS
+.Nm amlint
+.Bk -words
+.Op Fl HhSs
+.Op Fl d Ar definition-bundle
+.Op Fl x Ar exception-file
+.Ek
+.Bk -words
+.Ar action ...
+.Ek
+.Sh DESCRIPTION
+.Nm
+checks the given Automator actions for various problems and interface
+inconsistencies.
+.Ar action
+is the path of a built action bundle.
+The options are as follows:
+.Bl -tag -width flag
+.It Fl H
+Print the filename for each error or warning.
+.It Fl h
+Suppress the prefixing of filenames when multiple actions are checked.
+.It Fl S
+For each action, write a summary line indicating how many errors and
+warnings there were.
+.It Fl s
+As
+.Fl S ,
+but skips the summary line for actions with no errors or warnings.
+.It Fl d Ar definition-bundle
+Specify a definition bundle, which specifies custom action
+input and output types.  This option may be repeated if you need to
+specify more than one bundle.
+.It Fl x Ar exception-file
+Specify a list of errors and warnings to ignore.  The file should
+be plain text, with one line per error: the action filename, a
+colon, space, and the text of the error.  For example:
+.Bd -literal -offset indent
+My Action.action: error: NSButton "OK" should not use the metal style.
+.Ed
+.Pp
+You can simply copy an output line from
+.Nm
+.Fl H .
+.El
+.Sh RETURN VALUES
+.Nm
+exits with one of the following values:
+.Bl -tag -width flag
+.It 0
+no serious errors were found.
+.It 1
+an error was found in one of the checked actions.
+.It >1
+an internal error occurred.
+.El
+.Sh BUGS
+Because of a bug in
+.Xr nibtool 1 ,
+.Nm
+will fail to work on some nibs.  You will see errors about the
+.Dq old-style plist parser
+if this happens.

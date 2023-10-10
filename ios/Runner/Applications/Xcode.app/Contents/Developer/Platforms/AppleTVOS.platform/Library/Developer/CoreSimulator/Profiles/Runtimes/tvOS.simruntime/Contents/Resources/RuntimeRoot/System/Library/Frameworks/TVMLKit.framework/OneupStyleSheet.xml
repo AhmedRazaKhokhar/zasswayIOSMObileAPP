@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<head>
+		<style>
+			* {
+				tv-transition: push;
+			}
+            .lockupTitle {
+                tv-text-style: headline;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                tv-position: center;
+            }
+            .lockupSubtitle {
+                tv-text-style: body;
+                color: rgb(127, 127, 127);
+                text-align: center;
+                tv-align: center;
+                margin: 0 30 0;
+            }
+            .lockupRow {
+                tv-align: center;
+            }
+		</style>
+	</head>
+
+	<oneupTemplate>
+		<section>
+			<lockup>
+                <title class="lockupTitle" />
+                <subtitle class="lockupSubtitle" />
+                <row class="lockupRow">
+                    <subtitle class="lockupSubtitle" />
+                </row>
+			</lockup>
+		</section>
+	</oneupTemplate>
+</document>

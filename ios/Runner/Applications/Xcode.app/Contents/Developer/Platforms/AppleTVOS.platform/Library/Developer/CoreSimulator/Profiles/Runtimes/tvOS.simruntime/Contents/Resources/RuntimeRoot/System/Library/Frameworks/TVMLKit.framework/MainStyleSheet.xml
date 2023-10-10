@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<head>
+		<style>
+			* {
+				tv-transition-interval:8.0;
+			}
+		</style>
+	</head>
+
+	<mainTemplate>
+		<menuBar>
+			<section>
+				<menuItem>
+                    <title />
+				</menuItem>
+			</section>
+		</menuBar>
+	</mainTemplate>
+</document>

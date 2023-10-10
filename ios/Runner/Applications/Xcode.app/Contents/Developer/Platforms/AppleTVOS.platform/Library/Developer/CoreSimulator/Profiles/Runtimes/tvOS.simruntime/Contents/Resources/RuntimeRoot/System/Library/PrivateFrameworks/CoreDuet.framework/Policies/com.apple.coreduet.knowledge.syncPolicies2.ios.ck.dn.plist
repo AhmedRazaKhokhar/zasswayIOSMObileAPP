@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Cloud(Down) for iOS</string>
+	<key>Version</key>
+	<real>1</real>
+	<key>SyncDisabled</key>
+	<false/>
+	<key>MaxBatchesPerSync</key>
+	<integer>2</integer>
+	<key>MaxSyncPeriodInDays</key>
+	<integer>30</integer>
+	<key>MaxSyncDownIntervalInDays</key>
+	<integer>7</integer>
+	<key>MinSyncIntervalInSeconds</key>
+	<integer>60</integer>
+	<key>MinSyncWindowInSeconds</key>
+	<integer>60</integer>
+	<key>MinSyncsPerDay</key>
+	<integer>24</integer>
+	<key>MaxSyncsPerDay</key>
+	<integer>96</integer>
+	<key>NumChangesTriggeringSync</key>
+	<integer>0</integer>
+	<key>PushTriggersSync</key>
+	<false/>
+	<key>SingleDeviceSyncIntervalInDays</key>
+	<integer>7</integer>
+	<key>StreamNamesToAlwaysSync</key>
+	<array/>
+	<key>StreamNamesToSync</key>
+	<dict>
+		<key>OptimizedBatteryCharging</key>
+		<array>
+			<string>/bluetooth/isConnected</string>
+		</array>
+		<key>SiriPortrait</key>
+		<array>
+			<string>/app/intents</string>
+			<string>/portrait/topic</string>
+			<string>/portrait/entity</string>
+		</array>
+		<key>DigitalHealth</key>
+		<array>
+			<string>/app/usage</string>
+			<string>/app/webUsage</string>
+			<string>/app/mediaUsage</string>
+			<string>/device/isLocked</string>
+			<string>/display/isBacklit</string>
+			<string>/notification/usage</string>
+			<string>/media/nowPlaying</string>
+		</array>
+	</dict>
+	<key>StreamNamesWithAdditionsTriggeringSync</key>
+	<array/>
+	<key>StreamNamesWithDeletionsTriggeringSync</key>
+	<array/>
+	<key>SyncBatchSizeInEvents</key>
+	<integer>150</integer>
+	<key>SyncTimeoutInSeconds</key>
+	<integer>30</integer>
+	<key>PolicyDownloadIntervalInDays</key>
+	<integer>7</integer>
+	<key>TriggeredSyncDelayInSeconds</key>
+	<integer>10</integer>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+message VCCallInfoBlob {
+    required uint32 callID = 1;
+    required uint32 clientVersion = 2;
+    required string deviceType = 3;
+    required string frameworkVersion = 4;
+    required string osVersion = 5;
+}

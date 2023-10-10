@@ -1,0 +1,368 @@
+{
+  "layers" : [
+    {
+      "top" : "weights",
+      "w" : 46,
+      "h" : 1,
+      "weights" : {
+
+      },
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "attributes" : {
+        "basic_block_head" : 1
+      },
+      "bottom" : "",
+      "debug_info" : "weights",
+      "n" : 1,
+      "name" : "weights",
+      "constant_blob" : 1
+    },
+    {
+      "bottom" : "weights,inputs",
+      "weights" : {
+
+      },
+      "debug_info" : "score_r2",
+      "top" : "score_r2",
+      "type" : "batch_matmul",
+      "name" : "score_r2",
+      "channel_mode" : false
+    },
+    {
+      "bottom" : "score_r2",
+      "size_of_axes" : 1,
+      "axes_0" : 0,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "scores",
+      "version" : 1,
+      "top" : "scores",
+      "type" : "squeeze",
+      "name" : "scores",
+      "attributes" : {
+        "is_output" : 1
+      }
+    },
+    {
+      "bottom" : "scores",
+      "axis" : 0,
+      "weights" : {
+
+      },
+      "num_k" : 1,
+      "debug_info" : "best_1",
+      "top" : "top_values,top_indices",
+      "single_axis_topk" : true,
+      "type" : "topk",
+      "name" : "best_1"
+    },
+    {
+      "bottom" : "top_values",
+      "end" : 1,
+      "start" : 0,
+      "weights" : {
+
+      },
+      "axis" : 0,
+      "debug_info" : "top1",
+      "top" : "top1",
+      "type" : "slice",
+      "name" : "top1"
+    },
+    {
+      "top" : "half",
+      "w" : 1,
+      "h" : 1,
+      "name" : "half",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "half",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 3
+    },
+    {
+      "top" : "one",
+      "w" : 1,
+      "h" : 1,
+      "name" : "one",
+      "nd_rank" : 1,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "one",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 5
+    },
+    {
+      "bottom" : "top1,half",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "showToUserThreshold",
+      "nd_mode" : true,
+      "top" : "showToUserThresholdScore",
+      "type" : "elementwise",
+      "name" : "showToUserThreshold",
+      "beta" : 0
+    },
+    {
+      "bottom" : "scores,showToUserThresholdScore",
+      "alpha" : 1,
+      "operation" : 105,
+      "beta" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "showToUserMask",
+      "top" : "showToUser",
+      "type" : "elementwise",
+      "name" : "showToUserMask",
+      "attributes" : {
+        "is_output" : 1
+      }
+    },
+    {
+      "bottom" : "top1,one",
+      "alpha" : 1,
+      "operation" : 33,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "confidenceSpoilerThreshold",
+      "nd_mode" : true,
+      "top" : "spoilerScore",
+      "type" : "elementwise",
+      "name" : "confidenceSpoilerThreshold",
+      "beta" : 0
+    },
+    {
+      "bottom" : "scores,spoilerScore",
+      "alpha" : 1,
+      "operation" : 106,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "confidenceSpoilerMask",
+      "top" : "confidenceSpoilers",
+      "type" : "elementwise",
+      "name" : "confidenceSpoilerMask",
+      "beta" : 0
+    },
+    {
+      "axis_mode" : 1,
+      "bottom" : "confidenceSpoilers",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "confidenceSpoilerCounter",
+      "use_version" : 1,
+      "top" : "confidenceSpoilerCount",
+      "type" : "reduce",
+      "name" : "confidenceSpoilerCounter"
+    },
+    {
+      "bottom" : "confidenceSpoilerCount,one",
+      "alpha" : 1,
+      "operation" : 100,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "isConfidenceOk1Maker",
+      "top" : "isConfidenceOk1",
+      "type" : "elementwise",
+      "name" : "isConfidenceOk1Maker",
+      "beta" : 0
+    },
+    {
+      "bottom" : "top1,half",
+      "alpha" : 1,
+      "operation" : 106,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "isConfidenceOk2Maker",
+      "top" : "isConfidenceOk2",
+      "type" : "elementwise",
+      "name" : "isConfidenceOk2Maker",
+      "beta" : 0
+    },
+    {
+      "bottom" : "isConfidenceOk1,isConfidenceOk2",
+      "alpha" : 1,
+      "operation" : 110,
+      "beta" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "isConfidenceOkFinal",
+      "top" : "topMatchIsConfident",
+      "type" : "elementwise",
+      "name" : "isConfidenceOkFinal",
+      "attributes" : {
+        "is_output" : 1
+      }
+    }
+  ],
+  "storage" : "model.espresso.weights",
+  "metadata_in_weights" : [
+
+  ],
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 300,
+  "shape" : {
+    "layer_shapes" : {
+      "score_r2" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 2,
+        "h" : 1
+      },
+      "half" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "confidenceSpoilerCount" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "isConfidenceOk2" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "showToUser" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "isConfidenceOk1" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "spoilerScore" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "confidenceSpoilers" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "top_indices" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "topMatchIsConfident" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "scores" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "top_values" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "top1" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "one" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "inputs" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 2,
+        "h" : 46
+      },
+      "weights" : {
+        "k" : 1,
+        "w" : 46,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      },
+      "showToUserThresholdScore" : {
+        "k" : 1,
+        "w" : 1,
+        "n" : 1,
+        "_rank" : 1,
+        "h" : 1
+      }
+    },
+    "global_shapes" : {
+
+    }
+  },
+  "subnetworks" : {
+
+  }
+}

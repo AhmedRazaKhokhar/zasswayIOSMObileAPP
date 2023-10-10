@@ -1,0 +1,106 @@
+{
+  "layer_shapes" : {
+    "output_1" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "dot_1_output" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "att_softmax_0_softmax_reshaped_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "h" : 1
+    },
+    "dot_0_output" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "att_softmax_0_softmax_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "input_1" : {
+      "k" : 1,
+      "w" : 608,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "squeezed_1_output" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "input_1_reshaped_output" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "h" : 19
+    },
+    "att_softmax_1_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "att_softmax_1_softmax_reshaped_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "h" : 1
+    },
+    "concat_output" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "input_1_expanded_output" : {
+      "k" : 1,
+      "w" : 608,
+      "n" : 1,
+      "_rank" : 5,
+      "h" : 1
+    },
+    "att_softmax_1_softmax_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "att_softmax_0_output" : {
+      "k" : 1,
+      "w" : 19,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "attention_output" : {
+      "k" : 1,
+      "w" : 1,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    }
+  }
+}

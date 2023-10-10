@@ -1,0 +1,39 @@
+#CAT-SCHEMA 1.0
+
+name: weather.Current
+
+properties:
+  currentCondition:
+    type: dialog.String
+    description: Describes the current weather condition
+    optional: no
+
+  currentTemperature:
+    type: dialog.Temperature
+    description: Current temperature
+    optional: no
+
+  highTemperature:
+    type: dialog.Temperature
+    description: High temperature
+    optional: no
+
+  lowTemperature:
+    type: dialog.Temperature
+    description: Low temperature
+    optional: no
+
+  shouldShowHighTemperature:
+    type: dialog.Boolean
+    description: Decides weather to show high temperature in the dialog
+    optional: no
+
+  shouldShowLowTemperature:
+    type: dialog.Boolean
+    description: Decides weather to show low temperature in the dialog
+    optional: no
+
+  shouldShowNextDayWeather:
+    type: dialog.Boolean
+    description: Decides weather to show tomorrow's weather in the dialog
+    optional: no

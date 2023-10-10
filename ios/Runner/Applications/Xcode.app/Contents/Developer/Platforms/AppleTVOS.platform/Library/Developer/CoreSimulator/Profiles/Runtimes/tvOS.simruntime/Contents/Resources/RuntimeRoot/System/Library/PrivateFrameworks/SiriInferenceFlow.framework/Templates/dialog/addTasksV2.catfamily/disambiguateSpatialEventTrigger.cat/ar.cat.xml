@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:cat:1.0" id="addTasksV2#disambiguateSpatialEventTrigger" locale="ar">
+  
+          <conditions>
+            <condition name="isVoiceOnly">
+              <or>
+                <expression name="device.isVOX"/>
+                <expression name="device.isCarPlay"/>
+              </or>
+            </condition>
+          </conditions>
+          <all>
+            <dialog>
+              <opt>حسنًا <var name="user.groundingIfNeeded"/>. </opt>أي موقع؟
+            </dialog>
+            <dialog condition="isVoiceOnly">
+              <speak><var list="or" name="disambiguationList"/></speak>
+            </dialog>
+          </all>
+        
+</cat>

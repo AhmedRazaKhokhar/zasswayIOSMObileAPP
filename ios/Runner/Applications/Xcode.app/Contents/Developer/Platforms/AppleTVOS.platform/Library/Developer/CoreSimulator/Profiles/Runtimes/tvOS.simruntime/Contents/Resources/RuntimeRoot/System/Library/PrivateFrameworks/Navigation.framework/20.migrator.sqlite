@@ -1,0 +1,28 @@
+-- Migrates traces from v20 to v21
+
+BEGIN TRANSACTION;
+
+CREATE TABLE clt_locations
+(
+relative_timestamp  NUMERIC NOT NULL,
+absolute_timestamp  NUMERIC NOT NULL,
+latitude            NUMERIC,
+longitude           NUMERIC,
+quality             INTEGER
+);
+
+CREATE TABLE clt_location_nodes
+(
+location_row_id     INTEGER NOT NULL,   -- Corresponds to the implicit rowid in clt_locations, so we know how to associate nodes with locations
+is_node             INTEGER,
+clt_id          INTEGER,
+clt_type        INTEGER,
+-- The following are only valid if this is an edge and not a node
+edge_from_node_id   INTEGER,
+edge_from_node_type INTEGER,
+edge_to_node_id     INTEGER,
+edge_to_node_type   INTEGER,
+FOREIGN KEY(location_row_id) REFERENCES clt_location(rowid)
+);
+
+COMMIT;

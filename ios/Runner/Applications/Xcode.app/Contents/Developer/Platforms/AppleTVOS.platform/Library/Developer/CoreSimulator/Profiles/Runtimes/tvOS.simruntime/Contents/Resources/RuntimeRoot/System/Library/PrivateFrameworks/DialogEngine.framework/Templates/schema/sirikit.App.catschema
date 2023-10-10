@@ -1,0 +1,23 @@
+#CAT-SCHEMA 1.0
+
+name: sirikit.App
+description: Selects an appropriate localization for an app name
+
+inputs:
+  appId:
+    access_mode: public
+  localizedAppNames:
+    access_mode: private
+    type: sirikit.LocalizedAppName[]
+    description: A mapping from locale string to runtime-provided localized application name
+
+properties:
+  toString:
+    type: dialog.String
+    description: Returns the most appropriate localized application name for the current locale, with fallback locale lookup
+  appId:
+    type: dialog.String
+    description: The bundleId for the application from SAAppInfo
+  isDesignedByApple:
+    type: dialog.Boolean
+    description: Returns whether or not the appId starts with "com.apple."

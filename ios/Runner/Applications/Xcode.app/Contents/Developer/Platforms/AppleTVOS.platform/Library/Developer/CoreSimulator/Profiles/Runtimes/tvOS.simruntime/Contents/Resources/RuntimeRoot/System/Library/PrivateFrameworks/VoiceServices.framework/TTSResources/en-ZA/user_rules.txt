@@ -1,0 +1,69 @@
+[header]
+language = ENZ
+charset = utf-8
+
+[data]
+#
+# Siri additions
+#
+/@me\.com\b/   -->   " at me dot com "
+/OS X\b/   -->   "OS ten "
+/FA [Cc]up/   -->   "F A cup"
+/49er/   -->   "forty niner"
+/76er/   -->   "seventy sixer"
+/\bPG\b/   -->   " p-g "
+/\bRs\.1\b/i -->   "1 rupee"
+/\bRs\.([2-9][\d,\.]*)\b/i  -->  "$1 rupees"
+/\bno.($|\s+[A-Z])/   -->   "no \e\\eos=1\\ $1"
+#
+/\bAndrea Bocelli\b/   -->   " Ahn-drayah Bocelli "
+/\bBoyz II Men\b/   -->   " boys two men "
+/\bREO Speedwagon\b/   -->   " R E O Speedwagon "
+/\bBlack Eyed Peas\b/   -->   " black i'd peas "
+/\b[Bb]link[\.\- ]182\b/   -->   " Blink 1 82 "
+#
+/\bApple ID\b/   -->   "\e/+'@.p$l_'a&I_'di\e/+"
+#
+# Names
+#
+/\ble Roux\b/   -->   "\e/+l$_'R+u\e/+"
+/\bvan Wyk\b/   -->   "\e/+f^n_ve&Ik\e/+"
+/\bvan der Riet\b/   -->   "\e/+f^n_d$_'R+it\e/+"
+/\bBarack Obama\b/   -->   "\e/+b$.'R+A+k_o&U.'bA+.m$\e/+"
+/\bvan der Westhuyzen\b/   -->   "\e/+f^n_d$_'vEst.^&y.z$n\e/+"
+/\bvan Riebeeck\b/   -->   "\e/+f^n_'R+i.bEk\e/+"
+/\bvan Rensburg\b/   -->   "\e/+fAn_'R+Enz.bE0g\e/+"
+/\bslap pap\b/   -->   "\e/+'sl^p_p^p\e/+"
+/\bElizabeth I\b/   -->   "\e/+I.'lI.z$.b$T_D$_'fE0st\e/+"
+/\bHenry VIII\b/   -->   "\e/+'hEn.R+i_Di_'e&ItT\e/+"
+/\bJoss Whedon\b/   -->   "\e/+'d&ZA+s_'wi.dn%)\e/+"
+/\bcar audio\b/   -->   "\e/+'kAR+_'O.di.o&U\e/+"
+/\baudio source\b/   -->   "\e/+'O.di.o&U_'sOs\e/+"
+/\bspiro disco ball\b/   -->   "\e/+'spa&I.R+o&U_'dI.sko&U_'bOl\e/+"
+/\btyrian purple\b/   -->   "\e/+'tI.R+i.$n_'pE0.pl%)\e/+"
+/\bkung fu\b/   -->   "\e/+'k^nK_'fu\e/+"
+/\btai chi\b/   -->   "\e/+'ta&I_'t&Si\e/+"
+/\braspberry glace\b/   -->   "\e/+'R+Az.b$.R+i_'gl@.se&I\e/+"
+/\bCBN Espan\b/   -->   "\e/+'si.bi.'En_'Es.p@n.jA+l\e/+"
+/\bAli Larter\b/   -->   "\e/+@.'li_'lA.t$\e/+"
+/\bJean-Claude Van Damme\b/   -->   "\e/+'ZAn_'klOd_'v@n_'d@m\e/+"
+/\bSpike Jonze\b/   -->   "\e/+'spa&Ik_'d&Zo&Unz\e/+"
+/\broyal azure\b/   -->   "\e/+'R+O&I.$l_'@Z.U&$R+\e/+"
+/\bThe Weinstein Company\b/   -->   "\e/+'D$_'wa&Inz.tin_'k^m.p$.ni\e/+"
+/\bcar battery vendor\b/   -->   "\e/+'kA_'b@.t$.R+I_'vEn.d$\e/+"
+/\bBleu de France\b/   -->   "\e/+'bl$_d$_'fR+Ans\e/+"
+/\bLa Salle Green\b/   -->   "\e/+l@_'s@l_'gR+in\e/+"
+/\bpastel green\b/   -->   "\e/+p@.'stEl_'gR+in\e/+"
+/\bvivid auburn\b/   -->   "\e/+'vI.vId_'Ob.$n\e/+"
+/\bUP forest green\b/   -->   "\e/+'ju.pi_'fA+.R+Ist_'gR+in\e/+"
+/\bUP maroon\b/   -->   "\e/+'ju.pi_m$.'R+un\e/+"
+#
+# Number spacing
+#
+/(\d)[\s ](\d{3})[\s ](\d{3})[\s ](\d{3})[\s ](\d{3})/	-->	"$1,$2,$3,$4,$5"
+/(\d)[\s ](\d{3})[\s ](\d{3})[\s ](\d{3})/	-->	"$1,$2,$3,$4"
+/(\d)[\s ](\d{3})[\s ](\d{3})/	-->	"$1,$2,$3"
+/(\d)[\s ](\d{3})/	-->	"$1,$2"
+#
+# Proper readout for dates in yyyy/mm/dd form
+/\b(\d{4})[-\/](0[1-9]|1[012])[-\/](0[1-9]|[12]\d|3[01])\b/ --> "$3/$2/$1"

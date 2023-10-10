@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultAudioChannelLayout</key>
+	<integer>4294901760</integer>
+	<key>data</key>
+	<data>
+	AAAAAAAAAAAAAAApAAAAAD+AAAAAAAABwTW00AAAAALBwAAAAAAAA0BAAAAAAAAEQSAA
+	AAAAAAVBlLhCAAAABkBAAAAAAAAHQAAAAAAAAAhAAAAAAAAACUFAAAAAAAAKAAAAAAAA
+	AAtCSAAAAAAADEEAAAAAAAANP4AAAAAAAA5B8AAAAAAADwAAAAAAAAAQwsgAAAAAABEA
+	AAAAAAAAEkEgAAAAAAATAAAAAAAAABRBIAAAAAAAFUGgAAAAAAAWwsgAAAAAABcAAAAA
+	AAAAGECAAAAAAAAZAAAAAAAAABpBIAAAAAAAGz+AAAAAAAAcwfAAAAAAAB1CcAAAAAAA
+	HgAAAAAAAAAfP4AAAAAAACAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAACMAAAAAAAAAJAAA
+	AAAAAAAlP4AAAAAAACZAAAAAAAAAJwAAAABzdm9sAAAAAA==
+	</data>
+	<key>manufacturer</key>
+	<integer>1634758764</integer>
+	<key>name</key>
+	<string>aufx-ldnm-appl-headphone-latenight</string>
+	<key>subtype</key>
+	<integer>1818521197</integer>
+	<key>type</key>
+	<integer>1635083896</integer>
+	<key>version</key>
+	<integer>0</integer>
+</dict>
+</plist>

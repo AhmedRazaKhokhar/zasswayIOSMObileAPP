@@ -1,0 +1,543 @@
+.\" man page for cktool
+.\" Copyright (c) 2021 Apple Inc.  All rights reserved.
+.TH cktool 1 "7 June 2021" "Apple CloudKit Command Line Tool"
+
+.SH NAME
+cktool \- CloudKit Command Line Tool
+
+.SH SYNOPSIS
+cktool
+\fBverb\fR [\fItoken\fR] [\fB\-\-option\fR \fIvalue\fR] ...
+
+\fBsave-token\fR [\fItoken\fR]
+[\fB\-\-type\fR \fImanagement\fR | \fIuser\fR]
+[\fB\-\-method\fR \fIfile\fR | \fIkeychain\fR]
+[\fB\-\-force\fR]
+
+\fBremove-token\fR
+\fB\-\-type\fR \fImanagement\fR | \fIuser\fR
+[\fB\-\-method\fR \fIfile\fR | \fIkeychain\fR]
+[\fB\-\-force\fR]
+
+\fBexport-schema\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-output-file\fR \fIoutput-file\fR
+
+\fBimport-schema\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-file\fR \fIfile\fR
+
+\fBvalidate-schema\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-file\fR \fIfile\fR
+
+\fBreset-schema\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+
+\fBcreate-record\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+\fB\-\-record-type\fR \fIrecord-type\fR
+[\fB\-\-fields-file\fR \fIfields-file\fR]
+[\fB\-\-fields-json\fR \fIfields-json\fR]
+[\fB\-\-fields-stdin\fR]
+[\fB\-\-asset-files\fR \fIasset-key-to-file-path\fR ...]
+
+\fBquery-records\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-team-id\fR \fIteam-id\fR
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+[\fB\-\-record-type\fR \fIrecord-type\fR]
+[\fB\-\-filters\fR \fIfilters\fR ...]
+[\fB\-\-sort-by\fR \fIsort-by\fR ...]
+[\fB\-\-requested-fields\fR \fIrequested-fields\fR ...]
+[\fB\-\-limit\fR \fIlimit\fR]
+[\fB\-\-continuation-token\fR \fIcontinuation-token\fR]
+
+\fBdelete-record\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+[\fB\-\-record-name\fR \fIrecord-name\fR]
+[\fB\-y | \-\-yes\fR]
+
+\fBdelete-records\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+\fB\-\-container-id\fR \fIcontainer-id\fR
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+[\fB\-\-record-type\fR \fIrecord-type\fR]
+[\fB\-\-filters\fR \fIfilters\fR ...]
+[\fB\-\-dry-run\fR \fItrue\fR | \fIfalse\fR]
+[\fB\-y | \-\-yes\fR]
+
+\fBget-teams\fR
+[\fB\-t | \-\-token\fR \fItoken\fR]
+
+[\fB\-h | \-\-help\fR]
+
+.SH DESCRIPTION
+\fBcktool\fR is a CLI to assist with creating, validating, displaying and managing CloudKit database schemas and records stored in CloudKit containers. Most commands below require Internet connectivity.
+
+.SH OPTIONS
+There are several ways in which \fBcktool\fR can help during project development:
+
+.PP
+.SS
+Setup
+The tool must be authorized with a token each time it communicates with the CloudKit Console. One can easily create or remove tokens from local storage via the commands below. Tokens are saved to the login keychain by default, unless otherwise specified with the \fB\-\-method\fR \fIfile\fR | \fIkeychain\fR option.
+
+To create tokens:
+
+.TP 20
+\fBsave-token\fR
+Saves a token to the specified store. If no other options are present, an interactive prompt follows to guide through the process.
+
+.RS 5
+.TP 15
+\fItoken\fR
+Authorization token to save. If none is provided, a secure interactive prompt is used for input.
+
+.TP 15
+[\fB\-\-type\fR \fImanagement\fR | \fIuser\fR]
+Type of token to save, optional. One of \fImanagement\fR or \fIuser\fR. A management token is long-lived and is intended for container configuration only, like schema import and export. It cannot interact with data in the container. A user token is short-lived (several hours) and is used to perform database operations on behalf of the associated iCloud account. If this option is not provided, an interactive prompt follows.
+
+.TP 15
+[\fB\-\-method\fR \fIfile\fR | \fIkeychain\fR]
+The method to use when saving the token, optional. One of \fIfile\fR or \fIkeychain\fR, defaults to \fIkeychain\fR. If \fIfile\fR is specified, it is saved in \fI~/.config/cktool\fR. For \fIkeychain\fR, an entry is created in the login keychain under \fIcom.apple.icloud.cktool (cktoolmanagement_auth)\fR for the management token, and \fIcom.apple.icloud.cktool (cktooluser_auth)\fR for the user token.
+
+.TP 15
+[\fB\-\-force\fR]
+Forces overwrite of any existing token without prompting user confirmation.
+.RE
+
+.PP
+To remove tokens:
+
+.TP 20
+\fBremove-token\fR
+Removes a previously saved authentication token if one exists.
+
+.RS 5
+.TP 15
+\fB\-\-type\fR \fImanagement\fR | \fIuser\fR
+Type of token to remove, mandatory. One of \fImanagement\fR or \fIuser\fR.
+
+.TP 15
+[\fB\-\-method\fR \fIfile\fR | \fIkeychain\fR]
+The method to use when removing the token, optional. One of \fIfile\fR or \fIkeychain\fR, defaults to \fIkeychain\fR. If \fIfile\fR is specified, \fBcktool\fR tries to remove the token stored in \fI~/.config/cktool\fR. For \fIkeychain\fR, it will try to remove the entry created in the login keychain under the respective \fIcom.apple.icloud.cktool\fR entry. It is an error to remove a nonexisting token.
+
+.TP 15
+[\fB\-\-force\fR]
+Forces removal of the existing token without prompting for user confirmation.
+.RE
+
+.SS
+Schema
+Commands under this category operate on the CloudKit Database schema inside a container that exists in a given environment. One can export, import, validate or reset the schema in that container.
+
+To copy the schema from the CloudKit Database to the local machine:
+
+.TP 20
+\fBexport-schema\fR
+Returns the current schema for a given container and environment.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_MANAGEMENT_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+[\fB\-\-output-file\fR \fIoutput-file\fR]
+An optional output path to write the schema file to. Prints to stdout if unspecified.
+.RE
+
+.PP
+To import a schema into a CloudKit container:
+
+.TP 20
+\fBimport-schema\fR
+Import the local schema file into the given CloudKit container and environment
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_MANAGEMENT_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+\fB\-\-file\fR \fIfile\fR
+Path to the schema file to import. This option is mandatory.
+.RE
+
+.PP
+To check with the CloudKit Console that a local schema is correct (before importing it):
+
+.TP 20
+\fBvalidate-schema\fR
+Sends the contents of a local file containing a CloudKit database schema definition to the CloudKit Console for validation.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_MANAGEMENT_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+\fB\-\-file\fR \fIfile\fR
+The path to a local file containing the schema definition to be validated. This option is mandatory.
+.RE
+
+.PP
+To reset a development container's schema to the same schema used in the production container:
+
+.TP 20
+\fBreset-schema\fR
+Resets the development environment schema of the container to match the production environment schema of the container and deletes all data in the development environment of the container.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_MANAGEMENT_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+.RE
+
+.SS
+Records Manipulation
+With these commands, one can create new records or query existing records.
+
+To create a new record:
+
+.TP 20
+\fBcreate-record\fR
+Creates a new record in a given database, returning the new record.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_USER_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+The database type (public, shared or private). This option is mandatory.
+
+.TP 15
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+The record zone to create the record in. Optional, defaults to \fI_defaultZone\fR.
+
+.TP 15
+\fB\-\-record-type\fR \fIrecord-type\fR
+Record type being created. Must be defined in schema. This option is mandatory.
+
+.TP 15
+[\fB\-\-fields-file\fR \fIfields-file\fR]
+Path to a file containing JSON-formatted fields in {"KEY=": {"type": FIELD_TYPE, "value": VALUE}} format. Optional. Note that when FIELD_TYPE is assetType or assetListType, VALUE should refer to a key defined by \fB\-\-asset-files\fR.
+
+.TP 15
+[\fB\-\-fields-json\fR \fIfields-json\fR]
+Inline JSON description of fields as an alternative to using a file. Optional.
+
+.TP 15
+[\fB\-\-fields-stdin\fR]
+Takes the description from standard input. Optional.
+
+.TP 15
+[\fB\-\-asset-files\fR]
+A map of asset keys to local file paths referenced by the provided JSON-formatted fields in KEY=/path/to/file format. Optional.
+.RE
+
+.PP
+To query existing records from the CloudKit Database:
+
+.TP 20
+\fBquery-records\fR
+Queries the database for records with an optional set of filters.
+
+If no filters are provided, all records will be returned, up to the limit specified.
+
+If records matching the query exceed the limit, a \fIcontinuationToken\fR is returned at the top level of the JSON output, which can be used in subsequent query operations to get the next set of records.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_USER_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-team-id\fR \fIteam-id\fR
+The Apple Developer Program team identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+The database type (public, shared or private). This option is mandatory.
+
+.TP 15
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+The record zone in which the records exist. Optional, defaults to \fI_defaultZone\fR.
+
+.TP 15
+\fB\-\-record-type\fR \fIrecord-type\fR
+The record type to be queried.
+
+.TP 15
+[\fB\-\-filters\fR \fIfilters\fR ...]
+One or more optional filters described by strings to query with.
+
+.TP 15
+[\fB\-\-sort-by\fR \fIsort-by\fR ...]
+One or more optional sort descriptors.
+
+.TP 15
+[\fB\-\-requested-fields\fR \fIrequested-fields\fR ...]
+One or more optional fields to request. If not specified, all fields are returned.
+
+.TP 15
+[\fB\-\-limit\fR \fIlimit\fR]
+Optionally specify a maximum number of records returned in a single query, defaults to 200 records.
+
+.TP 15
+[\fB\-\-continuation-token\fR \fIcontinuation-token\fR]
+Continuation token used to request the next batch of result sets. It must be specified for querying and displaying subsequent results (e.g. greater than \fB\-\-limit\fR).
+.RE
+
+To delete a single record:
+
+.TP 20
+\fBdelete-record\fR
+Deletes a record from a given database by its unique record name.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_USER_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+The database type (public, shared or private). This option is mandatory.
+
+.TP 15
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+The record zone in which the record exists. Optional, defaults to \fI_defaultZone\fR.
+
+.TP 15
+\fB\-\-record-name\fR \fIrecord-name\fR
+The unique name of the record to delete. Usually a UUID.
+
+.TP 15
+[\fB\-y | \-\-yes\fR]
+Confirms permanent deletion of any matching record, skipping interactive confirmation. Optional.
+.RE
+
+To delete multiple records:
+
+.TP 20
+\fBdelete-records\fR
+Deletes records matching one or more filters from a given database. Performed as a dry-run operation by default, returning how many records match given filter set.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_USER_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+
+.TP 15
+\fB\-\-container-id\fR \fIcontainer-id\fR
+The unique iCloud container identifier. This option is mandatory.
+
+.TP 15
+\fB\-\-environment\fR \fIdevelopment\fR | \fIproduction\fR
+The container's environment, one of \fIdevelopment\fR or \fIproduction\fR. This option is mandatory.
+
+.TP 15
+\fB\-\-database-type\fR \fIpublic\fR | \fIshared\fR | \fIprivate\fR
+The database type (public, shared or private). This option is mandatory.
+
+.TP 15
+[\fB\-\-zone-name\fR \fIzone-name\fR]
+The record zone in which the record exists. Optional, defaults to \fI_defaultZone\fR.
+
+.TP 15
+\fB\-\-record-type\fR \fIrecord-type\fR
+The record type to be queried.
+
+.TP 15
+[\fB\-\-filters\fR \fIfilters\fR ...]
+One or more filters described by strings to match records with.
+
+.TP 15
+[\fB\-\-dry-run\fR \fItrue\fR | \fIfalse\fR]
+Whether the operation should be a dry-run, only returning a count of how many records would be matched and deleted. Optional, defaults to \fItrue\fR.
+
+.TP 15
+[\fB\-y | \-\-yes\fR]
+Confirms permanent deletion of any matching records, skipping interactive confirmation. Optional.
+.RE
+
+.SH OTHER OPTIONS
+.PP
+.TP 20
+[\fB\-h | \-\-help\fR]
+Displays a list of options and typical usage. Does not constitute an error if invoked by itself, and exits with 0.
+
+.TP 20
+\fBget-teams\fR
+Returns a list of teams and their team identifier of which the developer account is a member of.
+
+.RS 5
+.TP 15
+[\fB\-t | \-\-token\fR \fItoken\fR]
+The authorization token string, optional. If not present, it will be read from the CLOUDKIT_MANAGEMENT_TOKEN environment variable, the local store config file \fI~/.config/cktool\fR or the login keychain, in that order.
+.RE
+
+.SH EXAMPLES
+.TP 20
+$ cktool save-token abc123 --type management
+Saves the management token "abc123" to the login keychain, under \fIcom.apple.icloud.cktool (cktoolmanagement_auth)\fR.
+
+.TP 20
+$ cktool save-token abc123 --type user
+Saves the user token "abc123" to the login keychain, under \fIcom.apple.icloud.cktool (cktooluser_auth)\fR.
+
+.TP 20
+$ cktool import-schema --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment development --file /path/to/my/database/schema
+Imports a schema from a local file into the given CloudKit container and environment. Reads the authorization token from the environment variable \fBCLOUDKIT_MANAGEMENT_TOKEN\fR, \fI~/.config/cktool\fR or the login keychain (\fIcom.apple.icloud.cktool (cktoolmanagement_auth)\fR), in that order.
+
+.TP 20
+$ cktool create-record --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment development --database-type private --fields-file /path/to/records/data
+Creates a record in the authorized user's private database in the container using definitions from a file on the local filesystem. Reads the authorization token from the environment variable \fBCLOUDKIT_USER_TOKEN\fR, \fI~/.config/cktool\fR or the login keychain (\fIcom.apple.icloud.cktool (cktooluser_auth)\fR), in that order.
+
+.TP 20
+$ cktool create-record --team-id WWDRTEAMID --container-id iCloud.com.mycompany.mycontainer --environment development --database-type public --record-type Book --fields-json \\
+    '{
+        "title": { "type": "stringType", "value": "The Mysterious Island" },
+        "pageCount": { "type": "int64Type", "value": 1464 },
+        "description": { "type": "stringType", "value": "An awesome book" },
+        "publishedOn": { "type": "timestampType", "value": "1875-09-12T21:12:42Z" },
+        "authorImage": { "type": "assetType", "value": "AUTHOR_IMG" },
+        "covers": { "type": "assetListType", "value": ["COVER_IMG_1", "COVER_IMG_2"] }
+    }' \\
+    --asset-files AUTHOR_IMG=~/Pictures/jverne.jpg COVER_IMG_1=/tmp/LM1.jpg COVER_IMG_2=/tmp/LM2.jpg
+
+Creates a record in the public database of the container's development environment \fIiCloud.com.mycompany.mycontainer\fR for a previously-defined \fBBook\fR schema record type from an inline definition in JSON format. Note that the asset fields use keys with file paths later defined by the \fB\-\-asset-files\fR option. Reads the authorization token from the environment variable \fBCLOUDKIT_USER_TOKEN\fR, \fI~/.config/cktool\fR or the login keychain (\fIcom.apple.icloud.cktool (cktooluser_auth)\fR), in that order.
+
+.TP 20
+$ cktool delete-record --container-id iCloud.com.mycompany.mycontainer --environment development --database-type private --record-name UNIQUE-RECORD-ID
+Deletes a record matching the unique record name provided from the authorized user's private database in the container. Reads the authorization token from the environment variable \fBCLOUDKIT_USER_TOKEN\fR, \fI~/.config/cktool\fR or the login keychain (\fIcom.apple.icloud.cktool (cktooluser_auth)\fR), in that order.
+
+.TP 20
+$ cktool delete-records --container-id iCloud.com.mycompany.mycontainer --environment development --database-type public --record-type Book --filters "pageCount >= 1400" --dry-run false
+Deletes any \fBBook\fR records with a \fIpageCount\fR equal to or greater than 1400 from the public database in the container. Reads the authorization token from the environment variable \fBCLOUDKIT_USER_TOKEN\fR, \fI~/.config/cktool\fR or the login keychain (\fIcom.apple.icloud.cktool (cktooluser_auth)\fR), in that order.
+
+.SH ENVIRONMENT VARIABLES
+The following environment variables affect the execution of \fBcktool\fR:
+
+.TP 20
+\fBCLOUDKIT_MANAGEMENT_TOKEN\fR
+Contains the management authorization token in a SHELL environment variable. Takes precedence over the token being stored in a local file or the login keychain, but not if specified on the command line via \fB--token\fR.
+
+.TP 20
+\fBCLOUDKIT_USER_TOKEN\fR
+Contains the user authorization token in a SHELL environment variable. Takes precedence over the token being stored in a local file or the login keychain but not if specified on the command line via \fB--token\fR.
+
+.SH FILES
+.TP 20
+~/.config/cktool
+File-backed storage for locally stored tokens.
+
+.SH EXIT STATUS
+An exit code of 0 (EX_OK) is returned on all invocation that were completed successfully.
+
+An exit code of 1 is returned for errors in operation.
+
+An exit code of 64 (EX_USAGE) is returned for all incorrect invocations. Invoking with \-\-help is not an error.
+
+.SH SEE ALSO
+security(1)
+
+.SH COPYRIGHT
+Copyright (C) 2021, Apple, Inc.
+

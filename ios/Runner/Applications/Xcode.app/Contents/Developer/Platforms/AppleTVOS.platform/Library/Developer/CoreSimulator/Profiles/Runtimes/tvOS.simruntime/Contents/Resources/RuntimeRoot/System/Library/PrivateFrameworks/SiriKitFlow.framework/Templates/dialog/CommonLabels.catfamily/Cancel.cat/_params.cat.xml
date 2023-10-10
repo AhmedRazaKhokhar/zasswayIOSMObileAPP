@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:cat:1.0" id="CommonLabels#Cancel">
+  <meta name="description" value="A generic cancellation button label"/>
+  <meta name="readyForLoc" value="true"/>
+  <meta name="category" value="UsedForSnippet"/>
+  <parameters>
+      <parameter name="device" type="sirikit.DeviceState"/>
+  </parameters>
+</cat>
+

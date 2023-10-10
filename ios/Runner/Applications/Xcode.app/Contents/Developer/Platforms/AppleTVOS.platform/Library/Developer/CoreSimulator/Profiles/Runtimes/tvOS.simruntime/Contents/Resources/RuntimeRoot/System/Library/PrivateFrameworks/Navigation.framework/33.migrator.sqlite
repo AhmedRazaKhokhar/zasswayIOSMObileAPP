@@ -1,0 +1,14 @@
+-- Migrates traces from v33 to v34
+
+BEGIN TRANSACTION;
+
+DROP TABLE IF EXISTS significant_events;
+
+CREATE TABLE significant_events
+(
+event			NUMERIC NOT NULL,							-- Event types define in GEOTraceSignificantEvent.h
+timestamp		NUMERIC NOT NULL,							-- Absolute timestamp
+data			BLOB										-- Serialized NSDictionary of important data related to the event
+);
+
+COMMIT;

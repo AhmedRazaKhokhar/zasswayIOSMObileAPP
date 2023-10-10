@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Version</key>
+  <real>1</real>
+<!--
+  <key>SyncDisabled</key>
+  <false/>
+-->
+  <key>TriggeredSyncDelayInSeconds</key>
+  <integer>10</integer>
+
+  <key>Rapport(Pull)</key>
+  <dict>
+    <key>Transport</key>
+    <string>Rapport(Pull)</string>
+    <key>MaximumPeriodicSyncsPerDay</key>
+    <integer>96</integer>
+    <key>MaximumTriggeredSyncsPerDay</key>
+    <integer>0</integer>
+    <key>SyncBatchSizeInEvents</key>
+    <integer>100</integer>
+    <key>MaximumBatchesPerSync</key>
+    <integer>2</integer>
+    <key>MinumumSyncWindowInSeconds</key>
+    <integer>60</integer>
+    <key>MinumumTimeBetweenSyncsInSeconds</key>
+    <integer>60</integer>
+    <key>SingleDevicePeriodicSyncCadenceInDays</key>
+    <integer>7</integer>
+  </dict>
+
+  <key>Rapport(Push)</key>
+  <dict>
+    <key>Transport</key>
+    <string>Rapport(Push)</string>
+    <key>MaximumPeriodicSyncsPerDay</key>
+    <integer>0</integer>
+    <key>MaximumTriggeredSyncsPerDay</key>
+    <integer>100</integer>
+    <key>SyncBatchSizeInEvents</key>
+    <integer>100</integer>
+    <key>MaximumBatchesPerSync</key>
+    <integer>2</integer>
+    <key>MinumumSyncWindowInSeconds</key>
+    <integer>0</integer>
+    <key>MinumumTimeBetweenSyncsInSeconds</key>
+    <integer>30</integer>
+  </dict>
+
+  <key>Cloud(Down)</key>
+  <dict>
+    <key>Transport</key>
+    <string>Cloud(Down)</string>
+    <key>MaximumPeriodicSyncsPerDay</key>
+    <integer>24</integer>
+    <key>MaximumTriggeredSyncsPerDay</key>
+    <integer>0</integer>
+    <key>SyncBatchSizeInEvents</key>
+    <integer>200</integer>
+    <key>MaximumBatchesPerSync</key>
+    <integer>2</integer>
+    <key>MinumumSyncWindowInSeconds</key>
+    <integer>60</integer>
+    <key>MinumumTimeBetweenSyncsInSeconds</key>
+    <integer>60</integer>
+    <key>SingleDevicePeriodicSyncCadenceInDays</key>
+    <integer>7</integer>
+  </dict>
+
+  <key>Cloud(Up)</key>
+  <dict>
+    <key>Transport</key>
+    <string>Cloud(Up)</string>
+    <key>MaximumPeriodicSyncsPerDay</key>
+    <integer>24</integer>
+    <key>MaximumTriggeredSyncsPerDay</key>
+    <integer>12</integer>
+    <key>SyncBatchSizeInEvents</key>
+    <integer>200</integer>
+    <key>MaximumBatchesPerSync</key>
+    <integer>2</integer>
+    <key>MinumumSyncWindowInSeconds</key>
+    <integer>0</integer>
+    <key>MinumumTimeBetweenSyncsInSeconds</key>
+    <integer>60</integer>
+    <key>SingleDevicePeriodicSyncCadenceInDays</key>
+    <integer>7</integer>
+  </dict>
+
+  <key>Supergreen over Rapport(Pull)</key>
+  <dict>
+    <key>Feature</key>
+    <string>Supergreen</string>
+    <key>StreamNames</key>
+    <array>
+      <string>/app/relevantActions</string>
+    </array>
+    <key>Sources</key>
+    <array>
+      <string>Companion</string>
+    </array>
+    <key>Destinations</key>
+    <array>
+      <string>Watch</string>
+    </array>
+    <key>Transport</key>
+    <string>Rapport(Pull)</string>
+    <key>OldestEventToSyncInDays</key>
+    <integer>30</integer>
+    <key>PeriodicSyncCadenceInMinutes</key>
+    <integer>15</integer>
+  </dict>
+
+  <key>Supergreen over Cloud(Up)</key>
+  <dict>
+    <key>Feature</key>
+    <string>Supergreen</string>
+    <key>StreamNames</key>
+    <array>
+      <string>/app/activity</string>
+      <string>/app/intents</string>
+    </array>
+    <key>Sources</key>
+    <array>
+      <string>iPhone</string>
+    </array>
+<!-- TODO: I think I want the final destination, that way we can not send to cloud unless that destination exists -->
+    <key>Destinations</key>
+    <array>
+      <string>Watch</string>
+    </array>
+    <key>Transport</key>
+    <string>Cloud(Up)</string>
+    <key>OldestEventToSyncInDays</key>
+    <integer>30</integer>
+    <key>PeriodicSyncCadenceInMinutes</key>
+    <integer>60</integer>
+    <key>RequiresCompanions</key>
+    <array>
+      <string>Watch</string>
+    </array>
+  </dict>
+
+  <key>Supergreen over Cloud(Down)</key>
+  <dict>
+    <key>Feature</key>
+    <string>Supergreen</string>
+    <key>StreamNames</key>
+    <array>
+      <string>/app/activity</string>
+      <string>/app/intents</string>
+      <string>/app/relevantActions</string>
+    </array>
+<!-- TODO: I think I want the origin source, that way we can not fetch from cloud unless that source exists -->
+    <key>Sources</key>
+    <array>
+      <string>iPhone</string>
+    </array>
+    <key>Destinations</key>
+    <array>
+      <string>Watch</string>
+    </array>
+    <key>Transport</key>
+    <string>Cloud(Down)</string>
+    <key>OldestEventToSyncInDays</key>
+    <integer>30</integer>
+    <key>PeriodicSyncCadenceInMinutes</key>
+    <integer>60</integer>
+    <key>RequiresCharging</key>
+    <true/>
+  </dict>
+</dict>
+
+</plist>
+

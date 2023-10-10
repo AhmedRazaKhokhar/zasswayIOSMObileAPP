@@ -1,0 +1,1114 @@
+; Buckwalter Arabic Lexicon -- Version Date: April 2009				
+; Copyright (c) 2000-2009 QAMUS LLC (www.qamus.org)				
+		Suff-0		
+	o	CVSuff-o	you [VERB]	IMPER + SUBJ:2MS
+h	ohu	CVSuff-oh	you [VERB] + it/him	IMPER + SUBJ:2MS + OBJ:3MS
+hmA	ohumA	CVSuff-oh	you [VERB] + them [DU]	IMPER + SUBJ:2MS + OBJ:3D
+hm	ohum	CVSuff-oh	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3MP
+hA	ohA	CVSuff-oh	you [VERB] + her/it/them	IMPER + SUBJ:2MS + OBJ:3FS
+hn	ohun~a	CVSuff-oh	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3FP
+ny	oniy	CVSuff-oh	you [VERB] + me	IMPER + SUBJ:2MS + OBJ:1S
+nA	onA	CVSuff-oh	you [VERB] + us	IMPER + SUBJ:2MS + OBJ:1P
+		CVSuff-0	you [VERB]	IMPER + SUBJ:2MS
+h	hi	CVSuff-0hi	you [VERB] + it/him	IMPER + SUBJ:2MS + OBJ:3MS
+hmA	himA	CVSuff-0hi	you [VERB] + them [DU]	IMPER + SUBJ:2MS + OBJ:3D
+hm	him	CVSuff-0hi	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3MP
+hA	hA	CVSuff-0hi	you [VERB] + her/it/them	IMPER + SUBJ:2MS + OBJ:3FS
+hn	hin~a	CVSuff-0hi	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3FP
+ny	niy	CVSuff-0hi	you [VERB] + me	IMPER + SUBJ:2MS + OBJ:1S
+nA	nA	CVSuff-0hi	you [VERB] + us	IMPER + SUBJ:2MS + OBJ:1P
+h	hu	CVSuff-0h	you [VERB] + it/him	IMPER + SUBJ:2MS + OBJ:3MS
+hmA	humA	CVSuff-0h	you [VERB] + them [DU]	IMPER + SUBJ:2MS + OBJ:3D
+hm	hum	CVSuff-0h	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3MP
+hA	hA	CVSuff-0h	you [VERB] + her/it/them	IMPER + SUBJ:2MS + OBJ:3FS
+hn	hun~a	CVSuff-0h	you [VERB] + them	IMPER + SUBJ:2MS + OBJ:3FP
+ny	niy	CVSuff-0h	you [VERB] + me	IMPER + SUBJ:2MS + OBJ:1S
+nA	nA	CVSuff-0h	you [VERB] + us	IMPER + SUBJ:2MS + OBJ:1P
+	a	PVSuff-a	[VERB]	PERF + SUBJ:3MS
+		PVSuff-0a	he/it [VERB]	PERF + SUBJ:3MS
+h	hu	PVSuff-0ah	he/it [VERB] + it/him	PERF + SUBJ:3MS + OBJ:3MS
+hmA	humA	PVSuff-0ah	he/it [VERB] + them [DU]	PERF + SUBJ:3MS + OBJ:3D
+hm	hum	PVSuff-0ah	he/it [VERB] + them	PERF + SUBJ:3MS + OBJ:3MP
+hA	hA	PVSuff-0ah	he/it [VERB] + her/it/them	PERF + SUBJ:3MS + OBJ:3FS
+hn	hun~a	PVSuff-0ah	he/it [VERB] + them	PERF + SUBJ:3MS + OBJ:3FP
+k	ka	PVSuff-0ah	he/it [VERB] + you [SG]	PERF + SUBJ:3MS + OBJ:2MS
+k	ki	PVSuff-0ah	he/it [VERB] + you [SG]	PERF + SUBJ:3MS + OBJ:2FS
+kmA	kumA	PVSuff-0ah	he/it [VERB] + you [DU]	PERF + SUBJ:3MS + OBJ:2D
+km	kum	PVSuff-0ah	he/it [VERB] + you [PL]	PERF + SUBJ:3MS + OBJ:2MP
+kn	kun~a	PVSuff-0ah	he/it [VERB] + you [FEM PL]	PERF + SUBJ:3MS + OBJ:2FP
+ny	niy	PVSuff-0ah	he/it [VERB] + me	PERF + SUBJ:3MS + OBJ:1S
+nA	nA	PVSuff-0ah	he/it [VERB] + us	PERF + SUBJ:3MS + OBJ:1P
+	u	NSuff-u	[DEF NOM]	DEF_NOM
+	a	NSuff-a	[DEF ACC]	DEF_ACC
+	i	NSuff-i	[DEF GEN]	DEF_GEN
+	N	NSuff-N	[INDEF NOM]	INDEF_NOM
+	F	NSuff-F	[INDEF ACC]	INDEF_ACC
+	K	NSuff-K	[INDEF GEN]	INDEF_GEN
+	u	NSuff-u_indef_nom	[INDEF NOM]	INDEF_NOM
+	a	NSuff-a_indef_acc	[INDEF ACC]	INDEF_ACC
+	a	NSuff-a_indef_gen	[INDEF GEN]	INDEF_GEN
+	K	NSuff-K_nom	[INDEF NOM]	INDEF_NOM
+	F	NSuff-F_nom	[INDEF NOM]	INDEF_NOM
+F	F	NSuff-F_nom	[INDEF NOM]	INDEF_NOM
+	F	NSuff-F_acc	[INDEF ACC]	INDEF_ACC
+F	F	NSuff-F_acc	[INDEF ACC]	INDEF_ACC
+	F	NSuff-F_gen	[INDEF GEN]	INDEF_GEN
+F	F	NSuff-F_gen	[INDEF GEN]	INDEF_GEN
+tyn	atayoni	NSuff-tayn_acc	two [ACC]	FEM_DU_ACC
+tyn	atayoni	NSuff-tayn_acc-nf	two [ACC]	DU_ACC
+tyn	atayoni	NSuff-tayn_gen	two [GEN]	FEM_DU_GEN
+tyn	atayoni	NSuff-tayn_gen-nf	two [GEN]	DU_GEN
+ty	atayo	NSuff-tayn_acc	two [ACC]	FEM_DU_ACC_POSS
+ty	atayo	NSuff-tayn_acc-nf	two [ACC]	DU_ACC_POSS
+ty	atayo	NSuff-tayn_gen	two [GEN]	FEM_DU_GEN_POSS
+ty	atayo	NSuff-tayn_gen-nf	two [GEN]	DU_GEN_POSS
+tAn	atAni	NSuff-atAn	two	FEM_DU_NOM
+tAn	atAni	NSuff-atAn-nf	two	DU_NOM
+tA	atA	NSuff-atAn	two	FEM_DU_NOM_POSS
+tA	atA	NSuff-atAn-nf	two	DU_NOM_POSS
+tAh	atAhu	NSuff-atAh	two + his/its	FEM_DU_NOM_POSS + POSS_PRON_3MS
+tAh	atAhu	NSuff-atAh-nf	two + his/its	DU_NOM_POSS + POSS_PRON_3MS
+tAhmA	atAhumA	NSuff-atAh	two + their	FEM_DU_NOM_POSS + POSS_PRON_3D
+tAhmA	atAhumA	NSuff-atAh-nf	two + their	DU_NOM_POSS + POSS_PRON_3D
+tAhm	atAhum	NSuff-atAh	two + their	FEM_DU_NOM_POSS + POSS_PRON_3MP
+tAhm	atAhum	NSuff-atAh-nf	two + their	DU_NOM_POSS + POSS_PRON_3MP
+tAhA	atAhA	NSuff-atAh	two + her/its/their	FEM_DU_NOM_POSS + POSS_PRON_3FS
+tAhA	atAhA	NSuff-atAh-nf	two + her/its/their	DU_NOM_POSS + POSS_PRON_3FS
+tAhn	atAhun~a	NSuff-atAh	two + their	FEM_DU_NOM_POSS + POSS_PRON_3FP
+tAhn	atAhun~a	NSuff-atAh-nf	two + their	DU_NOM_POSS + POSS_PRON_3FP
+tAk	atAka	NSuff-atAh	two + your [SG]	FEM_DU_NOM_POSS + POSS_PRON_2MS
+tAk	atAka	NSuff-atAh-nf	two + your [SG]	DU_NOM_POSS + POSS_PRON_2MS
+tAk	atAki	NSuff-atAh	two + your [SG]	FEM_DU_NOM_POSS + POSS_PRON_2FS
+tAk	atAki	NSuff-atAh-nf	two + your [SG]	DU_NOM_POSS + POSS_PRON_2FS
+tAkmA	atAkumA	NSuff-atAh	two + your [DU]	FEM_DU_NOM_POSS + POSS_PRON_2D
+tAkmA	atAkumA	NSuff-atAh-nf	two + your [DU]	DU_NOM_POSS + POSS_PRON_2D
+tAkm	atAkum	NSuff-atAh	two + your [PL]	FEM_DU_NOM_POSS + POSS_PRON_2MP
+tAkm	atAkum	NSuff-atAh-nf	two + your [PL]	DU_NOM_POSS + POSS_PRON_2MP
+tAkn	atAkun~a	NSuff-atAh	two + your [FEM PL]	FEM_DU_NOM_POSS + POSS_PRON_2FP
+tAkn	atAkun~a	NSuff-atAh-nf	two + your [PL]	DU_NOM_POSS + POSS_PRON_2FP
+tAy	atAya	NSuff-atAh	two + my	FEM_DU_NOM_POSS + POSS_PRON_1S
+tAy	atAya	NSuff-atAh-nf	two + my	DU_NOM_POSS + POSS_PRON_1S
+tAnA	atAnA	NSuff-atAh	two + our	FEM_DU_NOM_POSS + POSS_PRON_1P
+tAnA	atAnA	NSuff-atAh-nf	two + our	DU_NOM_POSS + POSS_PRON_1P
+tyh	atayohi	NSuff-tay_acc	two [ACC] + his/its	FEM_DU_ACC_POSS + POSS_PRON_3MS
+tyh	atayohi	NSuff-tay_acc-nf	two [ACC] + his/its	DU_ACC_POSS + POSS_PRON_3MS
+tyhmA	atayohimA	NSuff-tay_acc	two [ACC] + their	FEM_DU_ACC_POSS + POSS_PRON_3D
+tyhmA	atayohimA	NSuff-tay_acc-nf	two [ACC] + their	DU_ACC_POSS + POSS_PRON_3D
+tyhm	atayohim	NSuff-tay_acc	two [ACC] + their	FEM_DU_ACC_POSS + POSS_PRON_3MP
+tyhm	atayohim	NSuff-tay_acc-nf	two [ACC] + their	DU_ACC_POSS + POSS_PRON_3MP
+tyhA	atayohA	NSuff-tay_acc	two [ACC] + her/its/their	FEM_DU_ACC_POSS + POSS_PRON_3FS
+tyhA	atayohA	NSuff-tay_acc-nf	two [ACC] + her/its/their	DU_ACC_POSS + POSS_PRON_3FS
+tyhn	atayohin~a	NSuff-tay_acc	two [ACC] + their	FEM_DU_ACC_POSS + POSS_PRON_3FP
+tyhn	atayohin~a	NSuff-tay_acc-nf	two [ACC] + their	DU_ACC_POSS + POSS_PRON_3FP
+tyk	atayoka	NSuff-tay_acc	two [ACC] + your [SG]	FEM_DU_ACC_POSS + POSS_PRON_2MS
+tyk	atayoka	NSuff-tay_acc-nf	two [ACC] + your [SG]	DU_ACC_POSS + POSS_PRON_2MS
+tyk	atayoki	NSuff-tay_acc	two [ACC] + your [SG]	FEM_DU_ACC_POSS + POSS_PRON_2FS
+tyk	atayoki	NSuff-tay_acc-nf	two [ACC] + your [SG]	DU_ACC_POSS + POSS_PRON_2FS
+tykmA	atayokumA	NSuff-tay_acc	two [ACC] + your [DU]	FEM_DU_ACC_POSS + POSS_PRON_2D
+tykmA	atayokumA	NSuff-tay_acc-nf	two [ACC] + your [DU]	DU_ACC_POSS + POSS_PRON_2D
+tykm	atayokum	NSuff-tay_acc	two [ACC] + your [PL]	FEM_DU_ACC_POSS + POSS_PRON_2MP
+tykm	atayokum	NSuff-tay_acc-nf	two [ACC] + your [PL]	DU_ACC_POSS + POSS_PRON_2MP
+tykn	atayokun~a	NSuff-tay_acc	two [ACC] + your [FEM PL]	FEM_DU_ACC_POSS + POSS_PRON_2FP
+tykn	atayokun~a	NSuff-tay_acc-nf	two [ACC] + your [PL]	DU_ACC_POSS + POSS_PRON_2FP
+ty	atay~a	NSuff-tay_acc	two [ACC] + my	FEM_DU_ACC_POSS + POSS_PRON_1S
+ty	atay~a	NSuff-tay_acc-nf	two [ACC] + my	DU_ACC_POSS + POSS_PRON_1S
+tynA	atayonA	NSuff-tay_acc	two [ACC] + our	FEM_DU_ACC_POSS + POSS_PRON_1P
+tynA	atayonA	NSuff-tay_acc-nf	two [ACC] + our	DU_ACC_POSS + POSS_PRON_1P
+tyh	atayohi	NSuff-tay_gen	two [GEN] + his/its	FEM_DU_GEN_POSS + POSS_PRON_3MS
+tyh	atayohi	NSuff-tay_gen-nf	two [GEN] + his/its	DU_GEN_POSS + POSS_PRON_3MS
+tyhmA	atayohimA	NSuff-tay_gen	two [GEN] + their	FEM_DU_GEN_POSS + POSS_PRON_3D
+tyhmA	atayohimA	NSuff-tay_gen-nf	two [GEN] + their	DU_GEN_POSS + POSS_PRON_3D
+tyhm	atayohim	NSuff-tay_gen	two [GEN] + their	FEM_DU_GEN_POSS + POSS_PRON_3MP
+tyhm	atayohim	NSuff-tay_gen-nf	two [GEN] + their	DU_GEN_POSS + POSS_PRON_3MP
+tyhA	atayohA	NSuff-tay_gen	two [GEN] + her/its/their	FEM_DU_GEN_POSS + POSS_PRON_3FS
+tyhA	atayohA	NSuff-tay_gen-nf	two [GEN] + her/its/their	DU_GEN_POSS + POSS_PRON_3FS
+tyhn	atayohin~a	NSuff-tay_gen	two [GEN] + their	FEM_DU_GEN_POSS + POSS_PRON_3FP
+tyhn	atayohin~a	NSuff-tay_gen-nf	two [GEN] + their	DU_GEN_POSS + POSS_PRON_3FP
+tyk	atayoka	NSuff-tay_gen	two [GEN] + your [SG]	FEM_DU_GEN_POSS + POSS_PRON_2MS
+tyk	atayoka	NSuff-tay_gen-nf	two [GEN] + your [SG]	DU_GEN_POSS + POSS_PRON_2MS
+tyk	atayoki	NSuff-tay_gen	two [GEN] + your [SG]	FEM_DU_GEN_POSS + POSS_PRON_2FS
+tyk	atayoki	NSuff-tay_gen-nf	two [GEN] + your [SG]	DU_GEN_POSS + POSS_PRON_2FS
+tykmA	atayokumA	NSuff-tay_gen	two [GEN] + your [DU]	FEM_DU_GEN_POSS + POSS_PRON_2D
+tykmA	atayokumA	NSuff-tay_gen-nf	two [GEN] + your [DU]	DU_GEN_POSS + POSS_PRON_2D
+tykm	atayokum	NSuff-tay_gen	two [GEN] + your [PL]	FEM_DU_GEN_POSS + POSS_PRON_2MP
+tykm	atayokum	NSuff-tay_gen-nf	two [GEN] + your [PL]	DU_GEN_POSS + POSS_PRON_2MP
+tykn	atayokun~a	NSuff-tay_gen	two [GEN] + your [FEM PL]	FEM_DU_GEN_POSS + POSS_PRON_2FP
+tykn	atayokun~a	NSuff-tay_gen-nf	two [GEN] + your [PL]	DU_GEN_POSS + POSS_PRON_2FP
+ty	atay~a	NSuff-tay_gen	two [GEN] + my	FEM_DU_GEN_POSS + POSS_PRON_1S
+ty	atay~a	NSuff-tay_gen-nf	two [GEN] + my	DU_GEN_POSS + POSS_PRON_1S
+tynA	atayonA	NSuff-tay_gen	two [GEN] + our	FEM_DU_GEN_POSS + POSS_PRON_1P
+tynA	atayonA	NSuff-tay_gen-nf	two [GEN] + our	DU_GEN_POSS + POSS_PRON_1P
+p	p	NSuff-ap	[FEM SG]	FEM_SG
+p	p	NSuff-ap-nf		
+p	pu	NSuff-apu	[FEM SG] + [DEF NOM]	FEM_SG + DEF_NOM
+p	pu	NSuff-apu-nf	[DEF NOM]	DEF_NOM
+p	pa	NSuff-apa	[FEM SG] + [DEF ACC]	FEM_SG + DEF_ACC
+p	pa	NSuff-apa-nf	[DEF ACC]	DEF_ACC
+p	pi	NSuff-api	[FEM SG] + [DEF GEN]	FEM_SG + DEF_GEN
+p	pi	NSuff-api-nf	[DEF GEN]	DEF_GEN
+p	pN	NSuff-apN	[FEM SG] + [INDEF NOM]	FEM_SG + INDEF_NOM
+p	pN	NSuff-apN-nf	[INDEF NOM]	INDEF_NOM
+p	pF	NSuff-apF	[FEM SG] + [INDEF ACC]	FEM_SG + INDEF_ACC
+p	pF	NSuff-apF-nf	[INDEF ACC]	INDEF_ACC
+p	pK	NSuff-apK	[FEM SG] + [INDEF GEN]	FEM_SG + INDEF_GEN
+p	pK	NSuff-apK-nf	[INDEF GEN]	INDEF_GEN
+p	pa	NSuff-apa_gen	[FEM SG] + [DEF GEN]	FEM_SG + DEF_GEN
+p	pa	NSuff-apa_gen-nf	[DEF GEN]	DEF_GEN
+ty	atiy	NSuff-ath	[FEM SG] + my	FEM_SG + POSS_PRON_1S
+ty	atiy	NSuff-ath-nf	my	POSS_PRON_1S
+th	atuhu	NSuff-ath	[FEM SG] + [DEF] + his/its	FEM_SG + DEF_NOM + POSS_PRON_3MS
+th	atuhu	NSuff-ath-nf	[DEF] + his/its	DEF_NOM + POSS_PRON_3MS
+thmA	atuhumA	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_NOM + POSS_PRON_3D
+thmA	atuhumA	NSuff-ath-nf	[DEF] + their	DEF_NOM + POSS_PRON_3D
+thm	atuhum	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_NOM + POSS_PRON_3MP
+thm	atuhum	NSuff-ath-nf	[DEF] + their	DEF_NOM + POSS_PRON_3MP
+thA	atuhA	NSuff-ath	[FEM SG] + [DEF] + its/their/her	FEM_SG + DEF_NOM + POSS_PRON_3FS
+thA	atuhA	NSuff-ath-nf	[DEF] + its/their/her	DEF_NOM + POSS_PRON_3FS
+thn	atuhun~a	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_NOM + POSS_PRON_3FP
+thn	atuhun~a	NSuff-ath-nf	[DEF] + their	DEF_NOM + POSS_PRON_3FP
+tk	atuka	NSuff-ath	[FEM SG] + [DEF] + your [SG]	FEM_SG + DEF_NOM + POSS_PRON_2MS
+tk	atuka	NSuff-ath-nf	[DEF] + your [SG]	DEF_NOM + POSS_PRON_2MS
+tk	atuki	NSuff-ath	[FEM SG] + [DEF] + your [SG]	FEM_SG + DEF_NOM + POSS_PRON_2FS
+tk	atuki	NSuff-ath-nf	[DEF] + your [SG]	DEF_NOM + POSS_PRON_2FS
+tkmA	atukumA	NSuff-ath	[FEM SG] + [DEF] + your (both)	FEM_SG + DEF_NOM + POSS_PRON_2D
+tkmA	atukumA	NSuff-ath-nf	[DEF] + your (both)	DEF_NOM + POSS_PRON_2D
+tkm	atukum	NSuff-ath	[FEM SG] + [DEF] + your [PL]	FEM_SG + DEF_NOM + POSS_PRON_2MP
+tkm	atukum	NSuff-ath-nf	[DEF] + your [PL]	DEF_NOM + POSS_PRON_2MP
+tkn	atukun~a	NSuff-ath	[FEM SG] + [DEF] + your [FEM PL]	FEM_SG + DEF_NOM + POSS_PRON_2FP
+tkn	atukun~a	NSuff-ath-nf	[DEF] + your [PL]	DEF_NOM + POSS_PRON_2FP
+tnA	atunA	NSuff-ath	[FEM SG] + [DEF] + our	FEM_SG + DEF_NOM + POSS_PRON_1P
+tnA	atunA	NSuff-ath-nf	[DEF] + our	DEF_NOM + POSS_PRON_1P
+th	atahu	NSuff-ath	[FEM SG] + [DEF] + his/its	FEM_SG + DEF_ACC + POSS_PRON_3MS
+th	atahu	NSuff-ath-nf	[DEF] + his/its	DEF_ACC + POSS_PRON_3MS
+thmA	atahumA	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_ACC + POSS_PRON_3D
+thmA	atahumA	NSuff-ath-nf	[DEF] + their	DEF_ACC + POSS_PRON_3D
+thm	atahum	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_ACC + POSS_PRON_3MP
+thm	atahum	NSuff-ath-nf	[DEF] + their	DEF_ACC + POSS_PRON_3MP
+thA	atahA	NSuff-ath	[FEM SG] + [DEF] + its/their/her	FEM_SG + DEF_ACC + POSS_PRON_3FS
+thA	atahA	NSuff-ath-nf	[DEF] + its/their/her	DEF_ACC + POSS_PRON_3FS
+thn	atahun~a	NSuff-ath	[FEM SG] + [DEF] + their	FEM_SG + DEF_ACC + POSS_PRON_3FP
+thn	atahun~a	NSuff-ath-nf	[DEF] + their	DEF_ACC + POSS_PRON_3FP
+tk	ataka	NSuff-ath	[FEM SG] + [DEF] + your [SG]	FEM_SG + DEF_ACC + POSS_PRON_2MS
+tk	ataka	NSuff-ath-nf	[DEF] + your [SG]	DEF_ACC + POSS_PRON_2MS
+tk	ataki	NSuff-ath	[FEM SG] + [DEF] + your [SG]	FEM_SG + DEF_ACC + POSS_PRON_2FS
+tk	ataki	NSuff-ath-nf	[DEF] + your [SG]	DEF_ACC + POSS_PRON_2FS
+tkmA	atakumA	NSuff-ath	[FEM SG] + [DEF] + your (both)	FEM_SG + DEF_ACC + POSS_PRON_2D
+tkmA	atakumA	NSuff-ath-nf	[DEF] + your (both)	DEF_ACC + POSS_PRON_2D
+tkm	atakum	NSuff-ath	[FEM SG] + [DEF] + your [PL]	FEM_SG + DEF_ACC + POSS_PRON_2MP
+tkm	atakum	NSuff-ath-nf	[DEF] + your [PL]	DEF_ACC + POSS_PRON_2MP
+tkn	atakun~a	NSuff-ath	[FEM SG] + [DEF] + your [FEM PL]	FEM_SG + DEF_ACC + POSS_PRON_2FP
+tkn	atakun~a	NSuff-ath-nf	[DEF] + your [PL]	DEF_ACC + POSS_PRON_2FP
+tnA	atanA	NSuff-ath	[FEM SG] + [DEF] + our	FEM_SG + DEF_ACC + POSS_PRON_1P
+tnA	atanA	NSuff-ath-nf	[DEF] + our	DEF_ACC + POSS_PRON_1P
+th	atihi	NSuff-atih	[FEM SG] + [DEF GEN] + his/its	FEM_SG + DEF_GEN + POSS_PRON_3MS
+th	atihi	NSuff-atih-nf	[DEF GEN] + his/its	DEF_GEN + POSS_PRON_3MS
+thmA	atihimA	NSuff-atih	[FEM SG] + [DEF GEN] + their	FEM_SG + DEF_GEN + POSS_PRON_3D
+thmA	atihimA	NSuff-atih-nf	[DEF GEN] + their	DEF_GEN + POSS_PRON_3D
+thm	atihim	NSuff-atih	[FEM SG] + [DEF GEN] + their	FEM_SG + DEF_GEN + POSS_PRON_3MP
+thm	atihim	NSuff-atih-nf	[DEF GEN] + their	DEF_GEN + POSS_PRON_3MP
+thA	atihA	NSuff-atih	[FEM SG] + [DEF GEN] + her/its/their	FEM_SG + DEF_GEN + POSS_PRON_3FS
+thA	atihA	NSuff-atih-nf	[DEF GEN] + her/its/their	DEF_GEN + POSS_PRON_3FS
+thn	atihin~a	NSuff-atih	[FEM SG] + [DEF GEN] + their	FEM_SG + DEF_GEN + POSS_PRON_3FP
+thn	atihin~a	NSuff-atih-nf	[DEF GEN] + their	DEF_GEN + POSS_PRON_3FP
+tk	atika	NSuff-atih	[FEM SG] + [DEF GEN] + your [SG]	FEM_SG + DEF_GEN + POSS_PRON_2MS
+tk	atika	NSuff-atih-nf	[DEF GEN] + your [SG]	DEF_GEN + POSS_PRON_2MS
+tk	atiki	NSuff-atih	[FEM SG] + [DEF GEN] + your [SG]	FEM_SG + DEF_GEN + POSS_PRON_2FS
+tk	atiki	NSuff-atih-nf	[DEF GEN] + your [SG]	DEF_GEN + POSS_PRON_2FS
+tkmA	atikumA	NSuff-atih	[FEM SG] + [DEF GEN] + your [DU]	FEM_SG + DEF_GEN + POSS_PRON_2D
+tkmA	atikumA	NSuff-atih-nf	[DEF GEN] + your [DU]	DEF_GEN + POSS_PRON_2D
+tkm	atikum	NSuff-atih	[FEM SG] + [DEF GEN] + your [PL]	FEM_SG + DEF_GEN + POSS_PRON_2MP
+tkm	atikum	NSuff-atih-nf	[DEF GEN] + your [PL]	DEF_GEN + POSS_PRON_2MP
+tkn	atikun~a	NSuff-atih	[FEM SG] + [DEF GEN] + your [FEM PL]	FEM_SG + DEF_GEN + POSS_PRON_2FP
+tkn	atikun~a	NSuff-atih-nf	[DEF GEN] + your [PL]	DEF_GEN + POSS_PRON_2FP
+tnA	atinA	NSuff-atih	[FEM SG] + [DEF GEN] + our	FEM_SG + DEF_GEN + POSS_PRON_1P
+tnA	atinA	NSuff-atih-nf	[DEF GEN] + our	DEF_GEN + POSS_PRON_1P
+yn	ayoni	NSuff-ayn_acc	two [ACC]	MASC_DU_ACC
+yn	ayoni	NSuff-ayn_gen	two [GEN]	MASC_DU_GEN
+y	ayo	NSuff-ayn_acc	two [ACC]	MASC_DU_ACC_POSS
+y	ayo	NSuff-ayn_gen	two [GEN]	MASC_DU_GEN_POSS
+yh	ayohi	NSuff-ayh_acc	two [ACC] + his/its	MASC_DU_ACC + POSS_PRON_3MS
+yhmA	ayohimA	NSuff-ayh_acc	two [ACC] + their	MASC_DU_ACC + POSS_PRON_3D
+yhm	ayohim	NSuff-ayh_acc	two [ACC] + their	MASC_DU_ACC + POSS_PRON_3MP
+yhA	ayohA	NSuff-ayh_acc	two [ACC] + her/its/their	MASC_DU_ACC + POSS_PRON_3FS
+yhn	ayohin~a	NSuff-ayh_acc	two [ACC] + their	MASC_DU_ACC + POSS_PRON_3FP
+yk	ayoka	NSuff-ayh_acc	two [ACC] + your [SG]	MASC_DU_ACC + POSS_PRON_2MS
+yk	ayoki	NSuff-ayh_acc	two [ACC] + your [SG]	MASC_DU_ACC + POSS_PRON_2FS
+ykmA	ayokumA	NSuff-ayh_acc	two [ACC] + your [DU]	MASC_DU_ACC + POSS_PRON_2D
+ykm	ayokum	NSuff-ayh_acc	two [ACC] + your [PL]	MASC_DU_ACC + POSS_PRON_2MP
+ykn	ayokun~a	NSuff-ayh_acc	two [ACC] + your [FEM PL]	MASC_DU_ACC + POSS_PRON_2FP
+y	ay~a	NSuff-ayh_acc	two [ACC] + my	MASC_DU_ACC + POSS_PRON_1S
+ynA	ayonA	NSuff-ayh_acc	two [ACC] + our	MASC_DU_ACC + POSS_PRON_1P
+yh	ayohi	NSuff-ayh_gen	two [GEN] + his/its	MASC_DU_GEN + POSS_PRON_3MS
+yhmA	ayohimA	NSuff-ayh_gen	two [GEN] + their	MASC_DU_GEN + POSS_PRON_3D
+yhm	ayohim	NSuff-ayh_gen	two [GEN] + their	MASC_DU_GEN + POSS_PRON_3MP
+yhA	ayohA	NSuff-ayh_gen	two [GEN] + her/its/their	MASC_DU_GEN + POSS_PRON_3FS
+yhn	ayohin~a	NSuff-ayh_gen	two [GEN] + their	MASC_DU_GEN + POSS_PRON_3FP
+yk	ayoka	NSuff-ayh_gen	two [GEN] + your [SG]	MASC_DU_GEN + POSS_PRON_2MS
+yk	ayoki	NSuff-ayh_gen	two [GEN] + your [SG]	MASC_DU_GEN + POSS_PRON_2FS
+ykmA	ayokumA	NSuff-ayh_gen	two [GEN] + your [DU]	MASC_DU_GEN + POSS_PRON_2D
+ykm	ayokum	NSuff-ayh_gen	two [GEN] + your [PL]	MASC_DU_GEN + POSS_PRON_2MP
+ykn	ayokun~a	NSuff-ayh_gen	two [GEN] + your [FEM PL]	MASC_DU_GEN + POSS_PRON_2FP
+y	ay~a	NSuff-ayh_gen	two [GEN] + my	MASC_DU_GEN + POSS_PRON_1S
+ynA	ayonA	NSuff-ayh_gen	two [GEN] + our	MASC_DU_GEN + POSS_PRON_1P
+A	AF	NSuff-AF	[ACC INDEF]	INDEF_ACC
+AF	AF	NSuff-AF	[ACC INDEF]	INDEF_ACC
+FA	AF	NSuff-AF	[ACC INDEF]	INDEF_ACC
+An	Ani	NSuff-An	two	MASC_DU_NOM
+A	A	NSuff-An	two	MASC_DU_NOM_POSS
+Ah	Ahu	NSuff-Ah	two + its/his	MASC_DU_NOM + POSS_PRON_3MS
+AhmA	AhumA	NSuff-Ah	two + their	MASC_DU_NOM + POSS_PRON_3D
+Ahm	Ahum	NSuff-Ah	two + their	MASC_DU_NOM + POSS_PRON_3MP
+AhA	AhA	NSuff-Ah	two + her/its/their	MASC_DU_NOM + POSS_PRON_3FS
+Ahn	Ahun~a	NSuff-Ah	two + their	MASC_DU_NOM + POSS_PRON_3FP
+Ak	Aka	NSuff-Ah	two + your [SG]	MASC_DU_NOM + POSS_PRON_2MS
+Ak	Aki	NSuff-Ah	two + your [SG]	MASC_DU_NOM + POSS_PRON_2FS
+AkmA	AkumA	NSuff-Ah	two + your [DU]	MASC_DU_NOM + POSS_PRON_2D
+Akm	Akum	NSuff-Ah	two + your [PL]	MASC_DU_NOM + POSS_PRON_2MP
+Akn	Akun~a	NSuff-Ah	two + your [FEM PL]	MASC_DU_NOM + POSS_PRON_2FP
+Ay	Aya	NSuff-Ah	two + my	MASC_DU_NOM + POSS_PRON_1S
+AnA	AnA	NSuff-Ah	two + our	MASC_DU_NOM + POSS_PRON_1P
+At	At	NSuff-At	[FEM PL]	PL
+At	At	NSuff-At-nf	[PL]	PL
+At	Atu	NSuff-Atu	[FEM PL] + [DEF NOM]	PL + DEF_NOM
+At	Atu	NSuff-Atu-nf	[PL] + [DEF NOM]	PL + DEF_NOM
+At	Ati	NSuff-Ati_acc	[FEM PL] + [DEF ACC]	PL + DEF_ACC
+At	Ati	NSuff-Ati_acc-nf	[PL] + [DEF ACC]	PL + DEF_ACC
+At	Ati	NSuff-Ati_gen	[FEM PL] + [DEF GEN]	PL + DEF_GEN
+At	Ati	NSuff-Ati_gen-nf	[PL] + [DEF GEN]	PL + DEF_GEN
+At	AtN	NSuff-AtN	[FEM PL] + [INDEF NOM]	PL + INDEF_NOM
+At	AtN	NSuff-AtN-nf	[PL] + [INDEF NOM]	PL + INDEF_NOM
+At	AtK	NSuff-AtK_acc	[FEM PL] + [INDEF ACC]	PL + INDEF_ACC
+At	AtK	NSuff-AtK_acc-nf	[PL] + [INDEF ACC]	PL + INDEF_ACC
+At	AtK	NSuff-AtK_gen	[FEM PL] + [INDEF GEN]	PL + INDEF_GEN
+At	AtK	NSuff-AtK_gen-nf	[PL] + [INDEF GEN]	PL + INDEF_GEN
+Aty	Atiy	NSuff-Ath	[FEM PL] + my	PL + POSS_PRON_1S
+Aty	Atiy	NSuff-Ath-nf	[PL] + my	PL + POSS_PRON_1S
+Ath	Atuhu	NSuff-Atuh	[FEM PL] + [DEF NOM] + its/his	PL + DEF_NOM + POSS_PRON_3MS
+Ath	Atuhu	NSuff-Atuh-nf	[PL] + [DEF NOM] + its/his	PL + DEF_NOM + POSS_PRON_3MS
+AthmA	AtuhumA	NSuff-Atuh	[FEM PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3D
+AthmA	AtuhumA	NSuff-Atuh-nf	[PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3D
+Athm	Atuhum	NSuff-Atuh	[FEM PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3MP
+Athm	Atuhum	NSuff-Atuh-nf	[PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3MP
+AthA	AtuhA	NSuff-Atuh	[FEM PL] + [DEF NOM] + her/its/their	PL + DEF_NOM + POSS_PRON_3FS
+AthA	AtuhA	NSuff-Atuh-nf	[PL] + [DEF NOM] + her/its/their	PL + DEF_NOM + POSS_PRON_3FS
+Athn	Atuhun~a	NSuff-Atuh	[FEM PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3FP
+Athn	Atuhun~a	NSuff-Atuh-nf	[PL] + [DEF NOM] + their	PL + DEF_NOM + POSS_PRON_3FP
+Atk	Atuka	NSuff-Atuh	[FEM PL] + [DEF NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2MS
+Atk	Atuka	NSuff-Atuh-nf	[PL] + [DEF NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2MS
+Atk	Atuki	NSuff-Atuh	[FEM PL] + [DEF NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2FS
+Atk	Atuki	NSuff-Atuh-nf	[PL] + [DEF NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2FS
+AtkmA	AtukumA	NSuff-Atuh	[FEM PL] + [DEF NOM] + your [DU]	PL + DEF_NOM + POSS_PRON_2D
+AtkmA	AtukumA	NSuff-Atuh-nf	[PL] + [DEF NOM] + your [DU]	PL + DEF_NOM + POSS_PRON_2D
+Atkm	Atukum	NSuff-Atuh	[FEM PL] + [DEF NOM] + your [PL]	PL + DEF_NOM + POSS_PRON_2MP
+Atkm	Atukum	NSuff-Atuh-nf	[PL] + [DEF NOM] + your [PL]	PL + DEF_NOM + POSS_PRON_2MP
+Atkn	Atukun~a	NSuff-Atuh	[FEM PL] + [DEF NOM] + your [FEM PL]	PL + DEF_NOM + POSS_PRON_2FP
+Atkn	Atukun~a	NSuff-Atuh-nf	[PL] + [DEF NOM] + your [FEM PL]	PL + DEF_NOM + POSS_PRON_2FP
+AtnA	AtunA	NSuff-Atuh	[FEM PL] + [DEF NOM] + our	PL + DEF_NOM + POSS_PRON_1P
+AtnA	AtunA	NSuff-Atuh-nf	[PL] + [DEF NOM] + our	PL + DEF_NOM + POSS_PRON_1P
+Ath	Atihi	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + its/his	PL + DEF_ACC + POSS_PRON_3MS
+Ath	Atihi	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + its/his	PL + DEF_ACC + POSS_PRON_3MS
+AthmA	AtihimA	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3D
+AthmA	AtihimA	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3D
+Athm	Atihim	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3MP
+Athm	Atihim	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3MP
+AthA	AtihA	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + her/its/their	PL + DEF_ACC + POSS_PRON_3FS
+AthA	AtihA	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + her/its/their	PL + DEF_ACC + POSS_PRON_3FS
+Athn	Atihin~a	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3FP
+Athn	Atihin~a	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + their	PL + DEF_ACC + POSS_PRON_3FP
+Atk	Atika	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2MS
+Atk	Atika	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2MS
+Atk	Atiki	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2FS
+Atk	Atiki	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2FS
+AtkmA	AtikumA	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + your [DU]	PL + DEF_ACC + POSS_PRON_2D
+AtkmA	AtikumA	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + your [DU]	PL + DEF_ACC + POSS_PRON_2D
+Atkm	Atikum	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + your [PL]	PL + DEF_ACC + POSS_PRON_2MP
+Atkm	Atikum	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + your [PL]	PL + DEF_ACC + POSS_PRON_2MP
+Atkn	Atikun~a	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + your [FEM PL]	PL + DEF_ACC + POSS_PRON_2FP
+Atkn	Atikun~a	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + your [FEM PL]	PL + DEF_ACC + POSS_PRON_2FP
+AtnA	AtinA	NSuff-Atih_acc	[FEM PL] + [DEF ACC] + our	PL + DEF_ACC + POSS_PRON_1P
+AtnA	AtinA	NSuff-Atih_acc-nf	[PL] + [DEF ACC] + our	PL + DEF_ACC + POSS_PRON_1P
+Ath	Atihi	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + its/his	PL + DEF_GEN + POSS_PRON_3MS
+Ath	Atihi	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + its/his	PL + DEF_GEN + POSS_PRON_3MS
+AthmA	AtihimA	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3D
+AthmA	AtihimA	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3D
+Athm	Atihim	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3MP
+Athm	Atihim	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3MP
+AthA	AtihA	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + her/its/their	PL + DEF_GEN + POSS_PRON_3FS
+AthA	AtihA	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + her/its/their	PL + DEF_GEN + POSS_PRON_3FS
+Athn	Atihin~a	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3FP
+Athn	Atihin~a	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + their	PL + DEF_GEN + POSS_PRON_3FP
+Atk	Atika	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2MS
+Atk	Atika	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2MS
+Atk	Atiki	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2FS
+Atk	Atiki	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2FS
+AtkmA	AtikumA	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + your [DU]	PL + DEF_GEN + POSS_PRON_2D
+AtkmA	AtikumA	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + your [DU]	PL + DEF_GEN + POSS_PRON_2D
+Atkm	Atikum	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + your [PL]	PL + DEF_GEN + POSS_PRON_2MP
+Atkm	Atikum	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + your [PL]	PL + DEF_GEN + POSS_PRON_2MP
+Atkn	Atikun~a	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + your [FEM PL]	PL + DEF_GEN + POSS_PRON_2FP
+Atkn	Atikun~a	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + your [FEM PL]	PL + DEF_GEN + POSS_PRON_2FP
+AtnA	AtinA	NSuff-Atih_gen	[FEM PL] + [DEF GEN] + our	PL + DEF_GEN + POSS_PRON_1P
+AtnA	AtinA	NSuff-Atih_gen-nf	[PL] + [DEF GEN] + our	PL + DEF_GEN + POSS_PRON_1P
+|t	|t	NSuff-|t	[FEM PL]	PL
+At	|t	NSuff-|t	[FEM PL]	PL
+|t	|tu	NSuff-|tu	[FEM PL] + [DEF NOM]	PL + DEF_NOM
+At	|tu	NSuff-|tu	[FEM PL] + [DEF NOM]	PL + DEF_NOM
+|t	|ti	NSuff-|ti_acc	[FEM PL] + [DEF ACC]	PL + DEF_ACC
+At	|ti	NSuff-|ti_acc	[FEM PL] + [DEF ACC]	PL + DEF_ACC
+|t	|ti	NSuff-|ti_gen	[FEM PL] + [DEF GEN]	PL + DEF_GEN
+At	|ti	NSuff-|ti_gen	[FEM PL] + [DEF GEN]	PL + DEF_GEN
+|t	|tN	NSuff-|tN	[FEM PL] + [INDEF NOM]	PL + INDEF_NOM
+At	|tN	NSuff-|tN	[FEM PL] + [INDEF NOM]	PL + INDEF_NOM
+|t	|tK	NSuff-|tK_acc	[FEM PL] + [INDEF ACC]	PL + INDEF_ACC
+At	|tK	NSuff-|tK_acc	[FEM PL] + [INDEF ACC]	PL + INDEF_ACC
+|t	|tK	NSuff-|tK_gen	[FEM PL] + [INDEF GEN]	PL + INDEF_GEN
+At	|tK	NSuff-|tK_gen	[FEM PL] + [INDEF GEN]	PL + INDEF_GEN
+|ty	|tiy	NSuff-|th	[FEM PL] + my	PL + POSS_PRON_1S
+Aty	|tiy	NSuff-|th	[FEM PL] + my	PL + POSS_PRON_1S
+|th	|tuhu	NSuff-|tuh	[FEM PL] + [NOM] + its/his	PL + DEF_NOM + POSS_PRON_3MS
+Ath	|tuhu	NSuff-|tuh	[FEM PL] + [NOM] + its/his	PL + DEF_NOM + POSS_PRON_3MS
+|thmA	|tuhumA	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3D
+AthmA	|tuhumA	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3D
+|thm	|tuhum	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3MP
+Athm	|tuhum	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3MP
+|thA	|tuhA	NSuff-|tuh	[FEM PL] + [NOM] + her/its/their	PL + DEF_NOM + POSS_PRON_3FS
+AthA	|tuhA	NSuff-|tuh	[FEM PL] + [NOM] + her/its/their	PL + DEF_NOM + POSS_PRON_3FS
+|thn	|tuhun~a	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3FP
+Athn	|tuhun~a	NSuff-|tuh	[FEM PL] + [NOM] + their	PL + DEF_NOM + POSS_PRON_3FP
+|tk	|tuka	NSuff-|tuh	[FEM PL] + [NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2MS
+Atk	|tuka	NSuff-|tuh	[FEM PL] + [NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2MS
+|tk	|tuki	NSuff-|tuh	[FEM PL] + [NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2FS
+Atk	|tuki	NSuff-|tuh	[FEM PL] + [NOM] + your [SG]	PL + DEF_NOM + POSS_PRON_2FS
+|tkmA	|tukumA	NSuff-|tuh	[FEM PL] + [NOM] + your [DU]	PL + DEF_NOM + POSS_PRON_2D
+AtkmA	|tukumA	NSuff-|tuh	[FEM PL] + [NOM] + your [DU]	PL + DEF_NOM + POSS_PRON_2D
+|tkm	|tukum	NSuff-|tuh	[FEM PL] + [NOM] + your [PL]	PL + DEF_NOM + POSS_PRON_2MP
+Atkm	|tukum	NSuff-|tuh	[FEM PL] + [NOM] + your [PL]	PL + DEF_NOM + POSS_PRON_2MP
+|tkn	|tukun~a	NSuff-|tuh	[FEM PL] + [NOM] + your [FEM PL]	PL + DEF_NOM + POSS_PRON_2FP
+Atkn	|tukun~a	NSuff-|tuh	[FEM PL] + [NOM] + your [FEM PL]	PL + DEF_NOM + POSS_PRON_2FP
+|tnA	|tunA	NSuff-|tuh	[FEM PL] + [NOM] + our	PL + DEF_NOM + POSS_PRON_1P
+AtnA	|tunA	NSuff-|tuh	[FEM PL] + [NOM] + our	PL + DEF_NOM + POSS_PRON_1P
+|th	|tihi	NSuff-|tih_acc	[FEM PL] + [ACC] + its/his	PL + DEF_ACC + POSS_PRON_3MS
+Ath	|tihi	NSuff-|tih_acc	[FEM PL] + [ACC] + its/his	PL + DEF_ACC + POSS_PRON_3MS
+|thmA	|tihimA	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3D
+AthmA	|tihimA	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3D
+|thm	|tihim	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3MP
+Athm	|tihim	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3MP
+|thA	|tihA	NSuff-|tih_acc	[FEM PL] + [ACC] + her/its/their	PL + DEF_ACC + POSS_PRON_3FS
+AthA	|tihA	NSuff-|tih_acc	[FEM PL] + [ACC] + her/its/their	PL + DEF_ACC + POSS_PRON_3FS
+|thn	|tihin~a	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3FP
+Athn	|tihin~a	NSuff-|tih_acc	[FEM PL] + [ACC] + their	PL + DEF_ACC + POSS_PRON_3FP
+|tk	|tika	NSuff-|tih_acc	[FEM PL] + [ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2MS
+Atk	|tika	NSuff-|tih_acc	[FEM PL] + [ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2MS
+|tk	|tiki	NSuff-|tih_acc	[FEM PL] + [ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2FS
+Atk	|tiki	NSuff-|tih_acc	[FEM PL] + [ACC] + your [SG]	PL + DEF_ACC + POSS_PRON_2FS
+|tkmA	|tikumA	NSuff-|tih_acc	[FEM PL] + [ACC] + your [DU]	PL + DEF_ACC + POSS_PRON_2D
+AtkmA	|tikumA	NSuff-|tih_acc	[FEM PL] + [ACC] + your [DU]	PL + DEF_ACC + POSS_PRON_2D
+|tkm	|tikum	NSuff-|tih_acc	[FEM PL] + [ACC] + your [PL]	PL + DEF_ACC + POSS_PRON_2MP
+Atkm	|tikum	NSuff-|tih_acc	[FEM PL] + [ACC] + your [PL]	PL + DEF_ACC + POSS_PRON_2MP
+|tkn	|tikun~a	NSuff-|tih_acc	[FEM PL] + [ACC] + your [FEM PL]	PL + DEF_ACC + POSS_PRON_2FP
+Atkn	|tikun~a	NSuff-|tih_acc	[FEM PL] + [ACC] + your [FEM PL]	PL + DEF_ACC + POSS_PRON_2FP
+|tnA	|tinA	NSuff-|tih_acc	[FEM PL] + [ACC] + our	PL + DEF_ACC + POSS_PRON_1P
+AtnA	|tinA	NSuff-|tih_acc	[FEM PL] + [ACC] + our	PL + DEF_ACC + POSS_PRON_1P
+|th	|tihi	NSuff-|tih_gen	[FEM PL] + [GEN] + its/his	PL + DEF_GEN + POSS_PRON_3MS
+Ath	|tihi	NSuff-|tih_gen	[FEM PL] + [GEN] + its/his	PL + DEF_GEN + POSS_PRON_3MS
+|thmA	|tihimA	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3D
+AthmA	|tihimA	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3D
+|thm	|tihim	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3MP
+Athm	|tihim	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3MP
+|thA	|tihA	NSuff-|tih_gen	[FEM PL] + [GEN] + her/its/their	PL + DEF_GEN + POSS_PRON_3FS
+AthA	|tihA	NSuff-|tih_gen	[FEM PL] + [GEN] + her/its/their	PL + DEF_GEN + POSS_PRON_3FS
+|thn	|tihin~a	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3FP
+Athn	|tihin~a	NSuff-|tih_gen	[FEM PL] + [GEN] + their	PL + DEF_GEN + POSS_PRON_3FP
+|tk	|tika	NSuff-|tih_gen	[FEM PL] + [GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2MS
+Atk	|tika	NSuff-|tih_gen	[FEM PL] + [GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2MS
+|tk	|tiki	NSuff-|tih_gen	[FEM PL] + [GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2FS
+Atk	|tiki	NSuff-|tih_gen	[FEM PL] + [GEN] + your [SG]	PL + DEF_GEN + POSS_PRON_2FS
+|tkmA	|tikumA	NSuff-|tih_gen	[FEM PL] + [GEN] + your [DU]	PL + DEF_GEN + POSS_PRON_2D
+AtkmA	|tikumA	NSuff-|tih_gen	[FEM PL] + [GEN] + your [DU]	PL + DEF_GEN + POSS_PRON_2D
+|tkm	|tikum	NSuff-|tih_gen	[FEM PL] + [GEN] + your [PL]	PL + DEF_GEN + POSS_PRON_2MP
+Atkm	|tikum	NSuff-|tih_gen	[FEM PL] + [GEN] + your [PL]	PL + DEF_GEN + POSS_PRON_2MP
+|tkn	|tikun~a	NSuff-|tih_gen	[FEM PL] + [GEN] + your [FEM PL]	PL + DEF_GEN + POSS_PRON_2FP
+Atkn	|tikun~a	NSuff-|tih_gen	[FEM PL] + [GEN] + your [FEM PL]	PL + DEF_GEN + POSS_PRON_2FP
+|tnA	|tinA	NSuff-|tih_gen	[FEM PL] + [GEN] + our	PL + DEF_GEN + POSS_PRON_1P
+AtnA	|tinA	NSuff-|tih_gen	[FEM PL] + [GEN] + our	PL + DEF_GEN + POSS_PRON_1P
+h	hu	NSuff-h	its/his	POSS_PRON_3MS
+hmA	humA	NSuff-h	their	POSS_PRON_3D
+hm	hum	NSuff-h	their	POSS_PRON_3MP
+hA	hA	NSuff-h	her/its/their	POSS_PRON_3FS
+hn	hun~a	NSuff-h	their	POSS_PRON_3FP
+k	ka	NSuff-h	your [SG]	POSS_PRON_2MS
+k	ki	NSuff-h	your [SG]	POSS_PRON_2FS
+kmA	kumA	NSuff-h	your [DU]	POSS_PRON_2D
+km	kum	NSuff-h	your [PL]	POSS_PRON_2MP
+kn	kun~a	NSuff-h	your [FEM PL]	POSS_PRON_2FP
+nA	nA	NSuff-h	our	POSS_PRON_1P
+h	hi	NSuff-hi	its/his	POSS_PRON_3MS
+hmA	himA	NSuff-hi	their	POSS_PRON_3D
+hm	him	NSuff-hi	their	POSS_PRON_3MP
+hA	hA	NSuff-hi	her/its/their	POSS_PRON_3FS
+hn	hin~a	NSuff-hi	their	POSS_PRON_3FP
+k	ka	NSuff-hi	your [SG]	POSS_PRON_2MS
+k	ki	NSuff-hi	your [SG]	POSS_PRON_2FS
+kmA	kumA	NSuff-hi	your [DU]	POSS_PRON_2D
+km	kum	NSuff-hi	your [PL]	POSS_PRON_2MP
+kn	kun~a	NSuff-hi	your [FEM PL]	POSS_PRON_2FP
+nA	nA	NSuff-hi	our	POSS_PRON_1P
+h	uhu	NSuff-uh	[DEF NOM] + its/his	DEF_NOM + POSS_PRON_3MS
+hmA	uhumA	NSuff-uh	[DEF NOM] + their	DEF_NOM + POSS_PRON_3D
+hm	uhum	NSuff-uh	[DEF NOM] + their	DEF_NOM + POSS_PRON_3MP
+hA	uhA	NSuff-uh	[DEF NOM] + her/its/their	DEF_NOM + POSS_PRON_3FS
+hn	uhun~a	NSuff-uh	[DEF NOM] + their	DEF_NOM + POSS_PRON_3FP
+k	uka	NSuff-uh	[DEF NOM] + your [SG]	DEF_NOM + POSS_PRON_2MS
+k	uki	NSuff-uh	[DEF NOM] + your [SG]	DEF_NOM + POSS_PRON_2FS
+kmA	ukumA	NSuff-uh	[DEF NOM] + your [DU]	DEF_NOM + POSS_PRON_2D
+km	ukum	NSuff-uh	[DEF NOM] + your [PL]	DEF_NOM + POSS_PRON_2MP
+kn	ukun~a	NSuff-uh	[DEF NOM] + your [FEM PL]	DEF_NOM + POSS_PRON_2FP
+nA	unA	NSuff-uh	[DEF NOM] + our	DEF_NOM + POSS_PRON_1P
+h	ahu	NSuff-ah	[DEF ACC] + its/his	DEF_ACC + POSS_PRON_3MS
+hmA	ahumA	NSuff-ah	[DEF ACC] + their	DEF_ACC + POSS_PRON_3D
+hm	ahum	NSuff-ah	[DEF ACC] + their	DEF_ACC + POSS_PRON_3MP
+hA	ahA	NSuff-ah	[DEF ACC] + her/its/their	DEF_ACC + POSS_PRON_3FS
+hn	ahun~a	NSuff-ah	[DEF ACC] + their	DEF_ACC + POSS_PRON_3FP
+k	aka	NSuff-ah	[DEF ACC] + your [SG]	DEF_ACC + POSS_PRON_2MS
+k	aki	NSuff-ah	[DEF ACC] + your [SG]	DEF_ACC + POSS_PRON_2FS
+kmA	akumA	NSuff-ah	[DEF ACC] + your [DU]	DEF_ACC + POSS_PRON_2D
+km	akum	NSuff-ah	[DEF ACC] + your [PL]	DEF_ACC + POSS_PRON_2MP
+kn	akun~a	NSuff-ah	[DEF ACC] + your [FEM PL]	DEF_ACC + POSS_PRON_2FP
+nA	anA	NSuff-ah	[DEF ACC] + our	DEF_ACC + POSS_PRON_1P
+h	ihi	NSuff-ih	[DEF GEN] + its/his	DEF_GEN + POSS_PRON_3MS
+hmA	ihimA	NSuff-ih	[DEF GEN] + their	DEF_GEN + POSS_PRON_3D
+hm	ihim	NSuff-ih	[DEF GEN] + their	DEF_GEN + POSS_PRON_3MP
+hA	ihA	NSuff-ih	[DEF GEN] + her/its/their	DEF_GEN + POSS_PRON_3FS
+hn	ihin~a	NSuff-ih	[DEF GEN] + their	DEF_GEN + POSS_PRON_3FP
+k	ika	NSuff-ih	[DEF GEN] + your [SG]	DEF_GEN + POSS_PRON_2MS
+k	iki	NSuff-ih	[DEF GEN] + your [SG]	DEF_GEN + POSS_PRON_2FS
+kmA	ikumA	NSuff-ih	[DEF GEN] + your [DU]	DEF_GEN + POSS_PRON_2D
+km	ikum	NSuff-ih	[DEF GEN] + your [PL]	DEF_GEN + POSS_PRON_2MP
+kn	ikun~a	NSuff-ih	[DEF GEN] + your [FEM PL]	DEF_GEN + POSS_PRON_2FP
+nA	inA	NSuff-ih	[DEF GEN] + our	DEF_GEN + POSS_PRON_1P
+yn	iyna	NSuff-iyna_acc	[PL ACC]	PL_ACC
+yn	iyna	NSuff-iyna_gen	[PL GEN]	PL_GEN
+y	iy	NSuff-iyna_acc	[PL ACC]	PL_ACC_POSS
+y	iy	NSuff-iyna_gen	[PL GEN]	PL_GEN_POSS
+yh	iyhi	NSuff-iyh_acc	[PL ACC] + his/its	PL_ACC + POSS_PRON_3MS
+yhmA	iyhimA	NSuff-iyh_acc	[PL ACC] + their	PL_ACC + POSS_PRON_3D
+yhm	iyhim	NSuff-iyh_acc	[PL ACC] + their	PL_ACC + POSS_PRON_3MP
+yhA	iyhA	NSuff-iyh_acc	[PL ACC] + her/its/their	PL_ACC + POSS_PRON_3FS
+yhn	iyhin~a	NSuff-iyh_acc	[PL ACC] + their	PL_ACC + POSS_PRON_3FP
+yk	iyka	NSuff-iyh_acc	[PL ACC] + your [SG]	PL_ACC + POSS_PRON_2MS
+yk	iyki	NSuff-iyh_acc	[PL ACC] + your [SG]	PL_ACC + POSS_PRON_2FS
+ykmA	iykumA	NSuff-iyh_acc	[PL ACC] + your [DU]	PL_ACC + POSS_PRON_2D
+ykm	iykum	NSuff-iyh_acc	[PL ACC] + your [PL]	PL_ACC + POSS_PRON_2MP
+ykn	iykun~a	NSuff-iyh_acc	[PL ACC] + your [FEM PL]	PL_ACC + POSS_PRON_2FP
+y	iy~a	NSuff-iyh_acc	[PL ACC] + my	PL_ACC + POSS_PRON_1S
+ynA	iynA	NSuff-iyh_acc	[PL ACC] + our	PL_ACC + POSS_PRON_1P
+yh	iyhi	NSuff-iyh_gen	[PL GEN] + his/its	PL_GEN + POSS_PRON_3MS
+yhmA	iyhimA	NSuff-iyh_gen	[PL GEN] + their	PL_GEN + POSS_PRON_3D
+yhm	iyhim	NSuff-iyh_gen	[PL GEN] + their	PL_GEN + POSS_PRON_3MP
+yhA	iyhA	NSuff-iyh_gen	[PL GEN] + her/its/their	PL_GEN + POSS_PRON_3FS
+yhn	iyhin~a	NSuff-iyh_gen	[PL GEN] + their	PL_GEN + POSS_PRON_3FP
+yk	iyka	NSuff-iyh_gen	[PL GEN] + your [SG]	PL_GEN + POSS_PRON_2MS
+yk	iyki	NSuff-iyh_gen	[PL GEN] + your [SG]	PL_GEN + POSS_PRON_2FS
+ykmA	iykumA	NSuff-iyh_gen	[PL GEN] + your [DU]	PL_GEN + POSS_PRON_2D
+ykm	iykum	NSuff-iyh_gen	[PL GEN] + your [PL]	PL_GEN + POSS_PRON_2MP
+ykn	iykun~a	NSuff-iyh_gen	[PL GEN] + your [FEM PL]	PL_GEN + POSS_PRON_2FP
+y	iy~a	NSuff-iyh_gen	[PL GEN] + my	PL_GEN + POSS_PRON_1S
+ynA	iynA	NSuff-iyh_gen	[PL GEN] + our	PL_GEN + POSS_PRON_1P
+y	iy	NSuff-iy	my	POSS_PRON_1S
+y	ya	NSuff-ya	my	POSS_PRON_1S
+n	ni	NSuff-|-ni	two	MASC_DU_NOM
+		NSuff-|h	two	MASC_DU_NOM_POSS
+h	hu	NSuff-|h	two + its/his	MASC_DU_NOM + POSS_PRON_3MS
+hmA	humA	NSuff-|h	two + their	MASC_DU_NOM + POSS_PRON_3D
+hm	hum	NSuff-|h	two + their	MASC_DU_NOM + POSS_PRON_3MP
+hA	hA	NSuff-|h	two + her/its/their	MASC_DU_NOM + POSS_PRON_3FS
+hn	hun~a	NSuff-|h	two + their	MASC_DU_NOM + POSS_PRON_3FP
+k	ka	NSuff-|h	two + your [SG]	MASC_DU_NOM + POSS_PRON_2MS
+k	ki	NSuff-|h	two + your [SG]	MASC_DU_NOM + POSS_PRON_2FS
+kmA	kumA	NSuff-|h	two + your [DU]	MASC_DU_NOM + POSS_PRON_2D
+km	kum	NSuff-|h	two + your [PL]	MASC_DU_NOM + POSS_PRON_2MP
+kn	kun~a	NSuff-|h	two + your [FEM PL]	MASC_DU_NOM + POSS_PRON_2FP
+y	ya	NSuff-|h	two + my	MASC_DU_NOM + POSS_PRON_1S
+nA	nA	NSuff-|h	two + our	MASC_DU_NOM + POSS_PRON_1P
+wn	uwna	NSuff-wn	[PL]	PL_NOM
+w	uw	NSuff-wn	[PL]	PL_NOM_POSS
+wh	uwhu	NSuff-wh	[PL] + his/its	PL_NOM + POSS_PRON_3MS
+whmA	uwhumA	NSuff-wh	[PL] + their	PL_NOM + POSS_PRON_3D
+whm	uwhum	NSuff-wh	[PL] + their	PL_NOM + POSS_PRON_3MP
+whA	uwhA	NSuff-wh	[PL] + her/its/their	PL_NOM + POSS_PRON_3FS
+whn	uwhun~a	NSuff-wh	[PL] + their	PL_NOM + POSS_PRON_3FP
+wk	uwka	NSuff-wh	[PL] + your [SG]	PL_NOM + POSS_PRON_2MS
+wk	uwki	NSuff-wh	[PL] + your [SG]	PL_NOM + POSS_PRON_2FS
+wkmA	uwkumA	NSuff-wh	[PL] + your [DU]	PL_NOM + POSS_PRON_2D
+wkm	uwkum	NSuff-wh	[PL] + your [PL]	PL_NOM + POSS_PRON_2MP
+wkn	uwkun~a	NSuff-wh	[PL] + your [FEM PL]	PL_NOM + POSS_PRON_2FP
+y	iy~a	NSuff-wh	[PL] + my	PL_NOM + POSS_PRON_1S
+wnA	uwnA	NSuff-wh	[PL] + our	PL_NOM + POSS_PRON_1P
+h	ahu	PVSuff-ah	he/it [VERB] + it/him	PERF + SUBJ:3MS + OBJ:3MS
+hmA	ahumA	PVSuff-ah	he/it [VERB] + them [DU]	PERF + SUBJ:3MS + OBJ:3D
+hm	ahum	PVSuff-ah	he/it [VERB] + them	PERF + SUBJ:3MS + OBJ:3MP
+hA	ahA	PVSuff-ah	he/it [VERB] + her/it/them	PERF + SUBJ:3MS + OBJ:3FS
+hn	ahun~a	PVSuff-ah	he/it [VERB] + them	PERF + SUBJ:3MS + OBJ:3FP
+k	aka	PVSuff-ah	he/it [VERB] + you [MASC SG]	PERF + SUBJ:3MS + OBJ:2MS
+k	aki	PVSuff-ah	he/it [VERB] + you	PERF + SUBJ:3MS + OBJ:2FS
+kmA	akumA	PVSuff-ah	he/it [VERB] + you [DU]	PERF + SUBJ:3MS + OBJ:2D
+km	akum	PVSuff-ah	he/it [VERB] + you	PERF + SUBJ:3MS + OBJ:2MP
+kn	akun~a	PVSuff-ah	he/it [VERB] + you	PERF + SUBJ:3MS + OBJ:2FP
+ny	aniy	PVSuff-ah	he/it [VERB] + me	PERF + SUBJ:3MS + OBJ:1S
+nA	anA	PVSuff-ah	he/it [VERB] + us	PERF + SUBJ:3MS + OBJ:1P
+n	ona	PVSuff-n	they [FEM PL] [VERB]	PERF + SUBJ:3FP
+nA	onA	PVSuff-n	we [VERB]	PERF + SUBJ:1P
+	~a	PVSuff-~n	they [FEM PL] [VERB]	PERF + SUBJ:3FP
+A	~A	PVSuff-~n	we [VERB]	PERF + SUBJ:1P
+nh	onahu	PVSuff-nh	they [VERB] + it/him	PERF + SUBJ:3FP + OBJ:3MS
+nhmA	onahumA	PVSuff-nh	they [VERB] + (both of) them	PERF + SUBJ:3FP + OBJ:3D
+nhm	onahum	PVSuff-nh	they [VERB] + them	PERF + SUBJ:3FP + OBJ:3MP
+nhA	onahA	PVSuff-nh	they [VERB] + her/it/them	PERF + SUBJ:3FP + OBJ:3FS
+nhn	onahun~a	PVSuff-nh	they [VERB] + them	PERF + SUBJ:3FP + OBJ:3FP
+nk	onaka	PVSuff-nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2MS
+nk	onaki	PVSuff-nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2FS
+nkmA	onakumA	PVSuff-nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2D
+nkm	onakum	PVSuff-nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2MP
+nkn	onakun~a	PVSuff-nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2FP
+nny	onaniy	PVSuff-nh	they [VERB] + me	PERF + SUBJ:3FP + OBJ:1S
+nnA	onanA	PVSuff-nh	they [VERB] + us	PERF + SUBJ:3FP + OBJ:1P
+h	~ahu	PVSuff-~nh	they [VERB] + it/him	PERF + SUBJ:3FP + OBJ:3MS
+hmA	~ahumA	PVSuff-~nh	they [VERB] + (both of) them	PERF + SUBJ:3FP + OBJ:3D
+hm	~ahum	PVSuff-~nh	they [VERB] + them	PERF + SUBJ:3FP + OBJ:3MP
+hA	~ahA	PVSuff-~nh	they [VERB] + her/it/them	PERF + SUBJ:3FP + OBJ:3FS
+hn	~ahun~a	PVSuff-~nh	they [VERB] + them	PERF + SUBJ:3FP + OBJ:3FP
+k	~aka	PVSuff-~nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2MS
+k	~aki	PVSuff-~nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2FS
+kmA	~akumA	PVSuff-~nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2D
+km	~akum	PVSuff-~nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2MP
+kn	~akun~a	PVSuff-~nh	they [VERB] + you	PERF + SUBJ:3FP + OBJ:2FP
+ny	~aniy	PVSuff-~nh	they [VERB] + me	PERF + SUBJ:3FP + OBJ:1S
+nA	~anA	PVSuff-~nh	they [VERB] + us	PERF + SUBJ:3FP + OBJ:1P
+nAh	onAhu	PVSuff-nh	we [VERB] + it/him	PERF + SUBJ:1P + OBJ:3MS
+nAhmA	onAhumA	PVSuff-nh	we [VERB] + (both of) them	PERF + SUBJ:1P + OBJ:3D
+nAhm	onAhum	PVSuff-nh	we [VERB] + them	PERF + SUBJ:1P + OBJ:3MP
+nAhA	onAhA	PVSuff-nh	we [VERB] + her/it/them	PERF + SUBJ:1P + OBJ:3FS
+nAhn	onAhun~a	PVSuff-nh	we [VERB] + them	PERF + SUBJ:1P + OBJ:3FP
+nAk	onAka	PVSuff-nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2MS
+nAk	onAki	PVSuff-nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2FS
+nAkmA	onAkumA	PVSuff-nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2D
+nAkm	onAkum	PVSuff-nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2MP
+nAkn	onAkun~a	PVSuff-nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2FP
+Ah	~Ahu	PVSuff-~nh	we [VERB] + it/him	PERF + SUBJ:1P + OBJ:3MS
+AhmA	~AhumA	PVSuff-~nh	we [VERB] + (both of) them	PERF + SUBJ:1P + OBJ:3D
+Ahm	~Ahum	PVSuff-~nh	we [VERB] + them	PERF + SUBJ:1P + OBJ:3MP
+AhA	~AhA	PVSuff-~nh	we [VERB] + her/it/them	PERF + SUBJ:1P + OBJ:3FS
+Ahn	~Ahun~a	PVSuff-~nh	we [VERB] + them	PERF + SUBJ:1P + OBJ:3FP
+Ak	~Aka	PVSuff-~nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2MS
+Ak	~Aki	PVSuff-~nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2FS
+AkmA	~AkumA	PVSuff-~nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2D
+Akm	~Akum	PVSuff-~nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2MP
+Akn	~Akun~a	PVSuff-~nh	we [VERB] + you	PERF + SUBJ:1P + OBJ:2FP
+t	otu	PVSuff-t	I [VERB]	PERF + SUBJ:1S
+t	ota	PVSuff-t	you [MASC SG] [VERB]	PERF + SUBJ:2MS
+t	oti	PVSuff-t	you [FEM SG] [VERB]	PERF + SUBJ:2FS
+tmA	otumA	PVSuff-t	you [DU] [VERB]	PERF + SUBJ:2D
+tm	otum	PVSuff-t	you [PL] [VERB]	PERF + SUBJ:2MP
+tn	otun~a	PVSuff-t	you [FEM PL] [VERB]	PERF + SUBJ:2FP
+	~u	PVSuff-~t	I [VERB]	PERF + SUBJ:1S
+	~a	PVSuff-~t	you [MASC SG] [VERB]	PERF + SUBJ:2MS
+	~i	PVSuff-~t	you [FEM SG] [VERB]	PERF + SUBJ:2FS
+mA	~umA	PVSuff-~t	you [DU] [VERB]	PERF + SUBJ:2D
+m	~um	PVSuff-~t	you [PL] [VERB]	PERF + SUBJ:2MP
+n	~un~a	PVSuff-~t	you [FEM PL] [VERB]	PERF + SUBJ:2FP
+th	otuhu	PVSuff-th	I [VERB] + it/him	PERF + SUBJ:1S + OBJ:3MS
+thmA	otuhumA	PVSuff-th	I [VERB] + them [DU]	PERF + SUBJ:1S + OBJ:3D
+thm	otuhum	PVSuff-th	I [VERB] + them	PERF + SUBJ:1S + OBJ:3MP
+thA	otuhA	PVSuff-th	I [VERB] + her/it/them	PERF + SUBJ:1S + OBJ:3FS
+thn	otuhun~a	PVSuff-th	I [VERB] + them	PERF + SUBJ:1S + OBJ:3FP
+h	~uhu	PVSuff-~th	I [VERB] + it/him	PERF + SUBJ:1S + OBJ:3MS
+hmA	~uhumA	PVSuff-~th	I [VERB] + them [DU]	PERF + SUBJ:1S + OBJ:3D
+hm	~uhum	PVSuff-~th	I [VERB] + them	PERF + SUBJ:1S + OBJ:3MP
+hA	~uhA	PVSuff-~th	I [VERB] + her/it/them	PERF + SUBJ:1S + OBJ:3FS
+hn	~uhun~a	PVSuff-~th	I [VERB] + them	PERF + SUBJ:1S + OBJ:3FP
+th	otahu	PVSuff-th	you [MASC SG] [VERB] + it/him	PERF + SUBJ:2MS + OBJ:3MS
+thmA	otahumA	PVSuff-th	you [MASC SG] [VERB] + them [DU]	PERF + SUBJ:2MS + OBJ:3D
+thm	otahum	PVSuff-th	you [MASC SG] [VERB] + them	PERF + SUBJ:2MS + OBJ:3MP
+thA	otahA	PVSuff-th	you [MASC SG] [VERB] + her/it/them	PERF + SUBJ:2MS + OBJ:3FS
+thn	otahun~a	PVSuff-th	you [MASC SG] [VERB] + them	PERF + SUBJ:2MS + OBJ:3FP
+h	~ahu	PVSuff-~th	you [MASC SG] [VERB] + it/him	PERF + SUBJ:2MS + OBJ:3MS
+hmA	~ahumA	PVSuff-~th	you [MASC SG] [VERB] + them [DU]	PERF + SUBJ:2MS + OBJ:3D
+hm	~ahum	PVSuff-~th	you [MASC SG] [VERB] + them	PERF + SUBJ:2MS + OBJ:3MP
+hA	~ahA	PVSuff-~th	you [MASC SG] [VERB] + her/it/them	PERF + SUBJ:2MS + OBJ:3FS
+hn	~ahun~a	PVSuff-~th	you [MASC SG] [VERB] + them	PERF + SUBJ:2MS + OBJ:3FP
+th	otihi	PVSuff-th	you [FEM SG] [VERB] + it/him	PERF + SUBJ:2FS + OBJ:3MS
+thmA	otihimA	PVSuff-th	you [FEM SG] [VERB] + them [DU]	PERF + SUBJ:2FS + OBJ:3D
+thm	otihim	PVSuff-th	you [FEM SG] [VERB] + them	PERF + SUBJ:2FS + OBJ:3MP
+thA	otihA	PVSuff-th	you [FEM SG] [VERB] + her/it/them	PERF + SUBJ:2FS + OBJ:3FS
+thn	otihin~a	PVSuff-th	you [FEM SG] [VERB] + them	PERF + SUBJ:2FS + OBJ:3FP
+h	~ihi	PVSuff-~th	you [FEM SG] [VERB] + it/him	PERF + SUBJ:2FS + OBJ:3MS
+hmA	~ihimA	PVSuff-~th	you [FEM SG] [VERB] + them [DU]	PERF + SUBJ:2FS + OBJ:3D
+hm	~ihim	PVSuff-~th	you [FEM SG] [VERB] + them	PERF + SUBJ:2FS + OBJ:3MP
+hA	~ihA	PVSuff-~th	you [FEM SG] [VERB] + her/it/them	PERF + SUBJ:2FS + OBJ:3FS
+hn	~ihin~a	PVSuff-~th	you [FEM SG] [VERB] + them	PERF + SUBJ:2FS + OBJ:3FP
+tk	otuka	PVSuff-th	I [VERB] + you	PERF + SUBJ:1S + OBJ:2MS
+tk	otuki	PVSuff-th	I [VERB] + you	PERF + SUBJ:1S + OBJ:2FS
+tkmA	otukumA	PVSuff-th	I [VERB] + you [DU]	PERF + SUBJ:1S + OBJ:2D
+tkm	otukum	PVSuff-th	I [VERB] + you (pl.)	PERF + SUBJ:1S + OBJ:2MP
+tkn	otukun~a	PVSuff-th	I [VERB] + you [FEM PL]	PERF + SUBJ:1S + OBJ:2FP
+k	~uka	PVSuff-~th	I [VERB] + you	PERF + SUBJ:1S + OBJ:2MS
+k	~uki	PVSuff-~th	I [VERB] + you	PERF + SUBJ:1S + OBJ:2FS
+kmA	~ukumA	PVSuff-~th	I [VERB] + you [DU]	PERF + SUBJ:1S + OBJ:2D
+km	~ukum	PVSuff-~th	I [VERB] + you (pl.)	PERF + SUBJ:1S + OBJ:2MP
+kn	~ukun~a	PVSuff-~th	I [VERB] + you [FEM PL]	PERF + SUBJ:1S + OBJ:2FP
+tny	otaniy	PVSuff-th	you [SG] [VERB] + me	PERF + SUBJ:2MS + OBJ:1S
+tnA	otanA	PVSuff-th	you [SG] [VERB] + us	PERF + SUBJ:2MS + OBJ:1P
+ny	~aniy	PVSuff-~th	you [SG] [VERB] + me	PERF + SUBJ:2MS + OBJ:1S
+nA	~anA	PVSuff-~th	you [SG] [VERB] + us	PERF + SUBJ:2MS + OBJ:1P
+tny	otiniy	PVSuff-th	you [SG] [VERB] + me	PERF + SUBJ:2FS + OBJ:1S
+tnA	otinA	PVSuff-th	you [SG] [VERB] + us	PERF + SUBJ:2FS + OBJ:1P
+ny	~iniy	PVSuff-~th	you [SG] [VERB] + me	PERF + SUBJ:2FS + OBJ:1S
+nA	~inA	PVSuff-~th	you [SG] [VERB] + us	PERF + SUBJ:2FS + OBJ:1P
+tmAh	otumAhu	PVSuff-th	you [DU] [VERB] + it/him	PERF + SUBJ:2D + OBJ:3MS
+tmAhmA	otumAhumA	PVSuff-th	you [DU] [VERB] + them [DU]	PERF + SUBJ:2D + OBJ:3D
+tmAhm	otumAhum	PVSuff-th	you [DU] [VERB] + them	PERF + SUBJ:2D + OBJ:3MP
+tmAhA	otumAhA	PVSuff-th	you [DU] [VERB] + her/it/them	PERF + SUBJ:2D + OBJ:3FS
+tmAhn	otumAhun~a	PVSuff-th	you [DU] [VERB] + them	PERF + SUBJ:2D + OBJ:3FP
+tmAny	otumAniy	PVSuff-th	you [DU] [VERB] + me	PERF + SUBJ:2D + OBJ:1S
+tmAnA	otumAnA	PVSuff-th	you [DU] [VERB] + us	PERF + SUBJ:2D + OBJ:1P
+mAh	~umAhu	PVSuff-~th	you [DU] [VERB] + it/him	PERF + SUBJ:2D + OBJ:3MS
+mAhmA	~umAhumA	PVSuff-~th	you [DU] [VERB] + them [DU]	PERF + SUBJ:2D + OBJ:3D
+mAhm	~umAhum	PVSuff-~th	you [DU] [VERB] + them	PERF + SUBJ:2D + OBJ:3MP
+mAhA	~umAhA	PVSuff-~th	you [DU] [VERB] + her/it/them	PERF + SUBJ:2D + OBJ:3FS
+mAhn	~umAhun~a	PVSuff-~th	you [DU] [VERB] + them	PERF + SUBJ:2D + OBJ:3FP
+mAny	~umAniy	PVSuff-~th	you [DU] [VERB] + me	PERF + SUBJ:2D + OBJ:1S
+mAnA	~umAnA	PVSuff-~th	you [DU] [VERB] + us	PERF + SUBJ:2D + OBJ:1P
+tmwh	otumuwhu	PVSuff-th	you [PL] [VERB] + it/him	PERF + SUBJ:2MP + OBJ:3MS
+tmwhmA	otumuwhumA	PVSuff-th	you [PL] [VERB] + them [DU]	PERF + SUBJ:2MP + OBJ:3D
+tmwhm	otumuwhum	PVSuff-th	you [PL] [VERB] + them	PERF + SUBJ:2MP + OBJ:3MP
+tmwhA	otumuwhA	PVSuff-th	you [PL] [VERB] + her/it/them	PERF + SUBJ:2MP + OBJ:3FS
+tmwhn	otumuwhun~a	PVSuff-th	you [PL] [VERB] + them	PERF + SUBJ:2MP + OBJ:3FP
+tmwny	otumuwniy	PVSuff-th	you [PL] [VERB] + me	PERF + SUBJ:2MP + OBJ:1S
+tmwnA	otumuwnA	PVSuff-th	you [PL] [VERB] + us	PERF + SUBJ:2MP + OBJ:1P
+mwh	~umuwhu	PVSuff-~th	you [PL] [VERB] + it/him	PERF + SUBJ:2MP + OBJ:3MS
+mwhmA	~umuwhumA	PVSuff-~th	you [PL] [VERB] + them [DU]	PERF + SUBJ:2MP + OBJ:3D
+mwhm	~umuwhum	PVSuff-~th	you [PL] [VERB] + them	PERF + SUBJ:2MP + OBJ:3MP
+mwhA	~umuwhA	PVSuff-~th	you [PL] [VERB] + her/it/them	PERF + SUBJ:2MP + OBJ:3FS
+mwhn	~umuwhun~a	PVSuff-~th	you [PL] [VERB] + them	PERF + SUBJ:2MP + OBJ:3FP
+mwny	~umuwniy	PVSuff-~th	you [PL] [VERB] + me	PERF + SUBJ:2MP + OBJ:1S
+mwnA	~umuwnA	PVSuff-~th	you [PL] [VERB] + us	PERF + SUBJ:2MP + OBJ:1P
+tnh	otun~ahu	PVSuff-th	you [FEM PL] [VERB] + it/him	PERF + SUBJ:2FP + OBJ:3MS
+tnhmA	otun~ahumA	PVSuff-th	you [FEM PL] [VERB] + them [DU]	PERF + SUBJ:2FP + OBJ:3D
+tnhm	otun~ahum	PVSuff-th	you [FEM PL] [VERB] + them	PERF + SUBJ:2FP + OBJ:3MP
+tnhA	otun~ahA	PVSuff-th	you [FEM PL] [VERB] + her/it/them	PERF + SUBJ:2FP + OBJ:3FS
+tnhn	otun~ahun~a	PVSuff-th	you [FEM PL] [VERB] + them	PERF + SUBJ:2FP + OBJ:3FP
+tnny	otun~aniy	PVSuff-th	you [FEM PL] [VERB] + me	PERF + SUBJ:2FP + OBJ:1S
+tnnA	otun~anA	PVSuff-th	you [FEM PL] [VERB] + us	PERF + SUBJ:2FP + OBJ:1P
+nh	~un~ahu	PVSuff-~th	you [FEM PL] [VERB] + it/him	PERF + SUBJ:2FP + OBJ:3MS
+nhmA	~un~ahumA	PVSuff-~th	you [FEM PL] [VERB] + them [DU]	PERF + SUBJ:2FP + OBJ:3D
+nhm	~un~ahum	PVSuff-~th	you [FEM PL] [VERB] + them	PERF + SUBJ:2FP + OBJ:3MP
+nhA	~un~ahA	PVSuff-~th	you [FEM PL] [VERB] + her/it/them	PERF + SUBJ:2FP + OBJ:3FS
+nhn	~un~ahun~a	PVSuff-~th	you [FEM PL] [VERB] + them	PERF + SUBJ:2FP + OBJ:3FP
+nny	~un~aniy	PVSuff-~th	you [FEM PL] [VERB] + me	PERF + SUBJ:2FP + OBJ:1S
+nnA	~un~anA	PVSuff-~th	you [FEM PL] [VERB] + us	PERF + SUBJ:2FP + OBJ:1P
+t	ato	PVSuff-at	she/it/they [VERB]	PERF + SUBJ:3FS
+tA	atA	PVSuff-at	they [DU] [VERB]	PERF + SUBJ:3FD
+th	atohu	PVSuff-ath	she/it/they [VERB] + it/him	PERF + SUBJ:3FS + OBJ:3MS
+thmA	atohumA	PVSuff-ath	she/it/they [VERB] + them [DU]	PERF + SUBJ:3FS + OBJ:3D
+thm	atohum	PVSuff-ath	she/it/they [VERB] + them	PERF + SUBJ:3FS + OBJ:3MP
+thA	atohA	PVSuff-ath	she/it/they [VERB] + her/it/them	PERF + SUBJ:3FS + OBJ:3FS
+thn	atohun~a	PVSuff-ath	she/it/they [VERB] + them	PERF + SUBJ:3FS + OBJ:3FP
+tk	atoka	PVSuff-ath	she/it/they [VERB] + you	PERF + SUBJ:3FS + OBJ:2MS
+tk	atoki	PVSuff-ath	she/it/they [VERB] + you	PERF + SUBJ:3FS + OBJ:2FS
+tkmA	atokumA	PVSuff-ath	she/it/they [VERB] + you [DU]	PERF + SUBJ:3FS + OBJ:2D
+tkm	atokum	PVSuff-ath	she/it/they [VERB] + you	PERF + SUBJ:3FS + OBJ:2MP
+tkn	atokun~a	PVSuff-ath	she/it/they [VERB] + you	PERF + SUBJ:3FS + OBJ:2FP
+tny	atoniy	PVSuff-ath	she/it/they [VERB] + me	PERF + SUBJ:3FS + OBJ:1S
+tnA	atonA	PVSuff-ath	she/it/they [VERB] + us	PERF + SUBJ:3FS + OBJ:1P
+tAh	atAhu	PVSuff-ath	they [DU] [VERB] + it/him	PERF + SUBJ:3FD + OBJ:3MS
+tAhmA	atAhumA	PVSuff-ath	they [DU] [VERB] + them [DU]	PERF + SUBJ:3FD + OBJ:3D
+tAhm	atAhum	PVSuff-ath	they [DU] [VERB] + them	PERF + SUBJ:3FD + OBJ:3MP
+tAhA	atAhA	PVSuff-ath	they [DU] [VERB] + her/it/them	PERF + SUBJ:3FD + OBJ:3FS
+tAhn	atAhun~a	PVSuff-ath	they [DU] [VERB] + them	PERF + SUBJ:3FD + OBJ:3FP
+tAk	atAka	PVSuff-ath	they [DU] [VERB] + you	PERF + SUBJ:3FD + OBJ:2MS
+tAk	atAki	PVSuff-ath	they [DU] [VERB] + you	PERF + SUBJ:3FD + OBJ:2FS
+tAkmA	atAkumA	PVSuff-ath	they [DU] [VERB] + you [DU]	PERF + SUBJ:3FD + OBJ:2D
+tAkm	atAkum	PVSuff-ath	they [DU] [VERB] + you	PERF + SUBJ:3FD + OBJ:2MP
+tAkn	atAkun~a	PVSuff-ath	they [DU] [VERB] + you	PERF + SUBJ:3FD + OBJ:2FP
+tAny	atAniy	PVSuff-ath	they [DU] [VERB] + me	PERF + SUBJ:3FD + OBJ:1S
+tAnA	atAnA	PVSuff-ath	they [DU] [VERB] + us	PERF + SUBJ:3FD + OBJ:1P
+A	A	PVSuff-A	they [DU] [VERB]	PERF + SUBJ:3MD
+		PVSuff-|	they [DU] [VERB]	PERF + SUBJ:3MD
+Ah	Ahu	PVSuff-Ah	they [DU] [VERB] + it/him	PERF + SUBJ:3MD + OBJ:3MS
+AhmA	AhumA	PVSuff-Ah	they [DU] [VERB] + them [DU]	PERF + SUBJ:3MD + OBJ:3D
+Ahm	Ahum	PVSuff-Ah	they [DU] [VERB] + them	PERF + SUBJ:3MD + OBJ:3MP
+AhA	AhA	PVSuff-Ah	they [DU] [VERB] + her/it/them	PERF + SUBJ:3MD + OBJ:3FS
+Ahn	Ahun~a	PVSuff-Ah	they [DU] [VERB] + them	PERF + SUBJ:3MD + OBJ:3FP
+Ak	Aka	PVSuff-Ah	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2MS
+Ak	Aki	PVSuff-Ah	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2FS
+AkmA	AkumA	PVSuff-Ah	they [DU] [VERB] + you [DU]	PERF + SUBJ:3MD + OBJ:2D
+Akm	Akum	PVSuff-Ah	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2MP
+Akn	Akun~a	PVSuff-Ah	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2FP
+Any	Aniy	PVSuff-Ah	they [DU] [VERB] + me	PERF + SUBJ:3MD + OBJ:1S
+AnA	AnA	PVSuff-Ah	they [DU] [VERB] + us	PERF + SUBJ:3MD + OBJ:1P
+h	hu	PVSuff-|h	they [DU] [VERB] + it/him	PERF + SUBJ:3MD + OBJ:3MS
+hmA	humA	PVSuff-|h	they [DU] [VERB] + them [DU]	PERF + SUBJ:3MD + OBJ:3D
+hm	hum	PVSuff-|h	they [DU] [VERB] + them	PERF + SUBJ:3MD + OBJ:3MP
+hA	hA	PVSuff-|h	they [DU] [VERB] + her/it/them	PERF + SUBJ:3MD + OBJ:3FS
+hn	hun~a	PVSuff-|h	they [DU] [VERB] + them	PERF + SUBJ:3MD + OBJ:3FP
+k	ka	PVSuff-|h	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2MS
+k	ki	PVSuff-|h	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2FS
+kmA	kumA	PVSuff-|h	they [DU] [VERB] + you [DU]	PERF + SUBJ:3MD + OBJ:2D
+km	kum	PVSuff-|h	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2MP
+kn	kun~a	PVSuff-|h	they [DU] [VERB] + you	PERF + SUBJ:3MD + OBJ:2FP
+ny	niy	PVSuff-|h	they [DU] [VERB] + me	PERF + SUBJ:3MD + OBJ:1S
+nA	nA	PVSuff-|h	they [DU] [VERB] + us	PERF + SUBJ:3MD + OBJ:1P
+wA	uwA	PVSuff-uwA	they [VERB]	PERF + SUBJ:3MP
+wA	awoA	PVSuff-awA	they [VERB]	PERF + SUBJ:3MP
+wA	uwA	CVSuff-wA	you [PL] [VERB]	IMPER + SUBJ:2MP
+wA	awoA	CVSuff-awA	you [PL] [VERB]	IMPER + SUBJ:2MP
+wh	uwhu	CVSuff-wh	you [PL] [VERB] + it/him	IMPER + SUBJ:2MP + OBJ:3MS
+whmA	uwhumA	CVSuff-wh	you [PL] [VERB] + them [DU]	IMPER + SUBJ:2MP + OBJ:3D
+whm	uwhum	CVSuff-wh	you [PL] [VERB] + them	IMPER + SUBJ:2MP + OBJ:3MP
+whA	uwhA	CVSuff-wh	you [PL] [VERB] + her/it/them	IMPER + SUBJ:2MP + OBJ:3FS
+whn	uwhun~a	CVSuff-wh	you [PL] [VERB] + them	IMPER + SUBJ:2MP + OBJ:3FP
+wny	uwniy	CVSuff-wh	you [PL] [VERB] + me	IMPER + SUBJ:2MP + OBJ:1S
+wnA	uwnA	CVSuff-wh	you [PL] [VERB] + us	IMPER + SUBJ:2MP + OBJ:1P
+wh	awohu	CVSuff-awh	you [PL] [VERB] + it/him	IMPER + SUBJ:2MP + OBJ:3MS
+whmA	awohumA	CVSuff-awh	you [PL] [VERB] + them [DU]	IMPER + SUBJ:2MP + OBJ:3D
+whm	awohum	CVSuff-awh	you [PL] [VERB] + them	IMPER + SUBJ:2MP + OBJ:3MP
+whA	awohA	CVSuff-awh	you [PL] [VERB] + her/it/them	IMPER + SUBJ:2MP + OBJ:3FS
+whn	awohun~a	CVSuff-awh	you [PL] [VERB] + them	IMPER + SUBJ:2MP + OBJ:3FP
+wny	awoniy	CVSuff-awh	you [PL] [VERB] + me	IMPER + SUBJ:2MP + OBJ:1S
+wnA	awonA	CVSuff-awh	you [PL] [VERB] + us	IMPER + SUBJ:2MP + OBJ:1P
+y	iy	CVSuff-y	you [FEM SG] [VERB]	IMPER + SUBJ:2FS
+y	ayo	CVSuff-ay	you [FEM SG] [VERB]	IMPER + SUBJ:2FS
+yh	iyhi	CVSuff-yh	you [FEM SG] [VERB] + it/him	IMPER + SUBJ:2FS + OBJ:3MS
+yhmA	iyhimA	CVSuff-yh	you [FEM SG] [VERB] + them [DU]	IMPER + SUBJ:2FS + OBJ:3D
+yhm	iyhim	CVSuff-yh	you [FEM SG] [VERB] + them	IMPER + SUBJ:2FS + OBJ:3MP
+yhA	iyhA	CVSuff-yh	you [FEM SG] [VERB] + her/it/them	IMPER + SUBJ:2FS + OBJ:3FS
+yhn	iyhin~a	CVSuff-yh	you [FEM SG] [VERB] + them	IMPER + SUBJ:2FS + OBJ:3FP
+yny	iyniy	CVSuff-yh	you [FEM SG] [VERB] + me	IMPER + SUBJ:2FS + OBJ:1S
+ynA	iynA	CVSuff-yh	you [FEM SG] [VERB] + us	IMPER + SUBJ:2FS + OBJ:1P
+yh	ayohi	CVSuff-ayh	you [FEM SG] [VERB] + it/him	IMPER + SUBJ:2FS + OBJ:3MS
+yhmA	ayohimA	CVSuff-ayh	you [FEM SG] [VERB] + them [DU]	IMPER + SUBJ:2FS + OBJ:3D
+yhm	ayohim	CVSuff-ayh	you [FEM SG] [VERB] + them	IMPER + SUBJ:2FS + OBJ:3MP
+yhA	ayohA	CVSuff-ayh	you [FEM SG] [VERB] + her/it/them	IMPER + SUBJ:2FS + OBJ:3FS
+yhn	ayohin~a	CVSuff-ayh	you [FEM SG] [VERB] + them	IMPER + SUBJ:2FS + OBJ:3FP
+yny	ayoniy	CVSuff-ayh	you [FEM SG] [VERB] + me	IMPER + SUBJ:2FS + OBJ:1S
+ynA	ayonA	CVSuff-ayh	you [FEM SG] [VERB] + us	IMPER + SUBJ:2FS + OBJ:1P
+wh	uwhu	PVSuff-uwh	they [VERB] + it/him	PERF + SUBJ:3MP + OBJ:3MS
+whmA	uwhumA	PVSuff-uwh	they [VERB] + them [DU]	PERF + SUBJ:3MP + OBJ:3D
+whm	uwhum	PVSuff-uwh	they [VERB] + them	PERF + SUBJ:3MP + OBJ:3MP
+whA	uwhA	PVSuff-uwh	they [VERB] + her/it/them	PERF + SUBJ:3MP + OBJ:3FS
+whn	uwhun~a	PVSuff-uwh	they [VERB] + them	PERF + SUBJ:3MP + OBJ:3FP
+wk	uwka	PVSuff-uwh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2MS
+wk	uwki	PVSuff-uwh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2FS
+wkmA	uwkumA	PVSuff-uwh	they [VERB] + you [DU]	PERF + SUBJ:3MP + OBJ:2D
+wkm	uwkum	PVSuff-uwh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2MP
+wkn	uwkun~a	PVSuff-uwh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2FP
+wny	uwniy	PVSuff-uwh	they [VERB] + me	PERF + SUBJ:3MP + OBJ:1S
+wnA	uwnA	PVSuff-uwh	they [VERB] + us	PERF + SUBJ:3MP + OBJ:1P
+wh	awohu	PVSuff-awh	they [VERB] + it/him	PERF + SUBJ:3MP + OBJ:3MS
+whmA	awohumA	PVSuff-awh	they [VERB] + them [DU]	PERF + SUBJ:3MP + OBJ:3D
+whm	awohum	PVSuff-awh	they [VERB] + them	PERF + SUBJ:3MP + OBJ:3MP
+whA	awohA	PVSuff-awh	they [VERB] + her/it/them	PERF + SUBJ:3MP + OBJ:3FS
+whn	awohun~a	PVSuff-awh	they [VERB] + them	PERF + SUBJ:3MP + OBJ:3FP
+wk	awoka	PVSuff-awh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2MS
+wk	awoki	PVSuff-awh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2FS
+wkmA	awokumA	PVSuff-awh	they [VERB] + you [DU]	PERF + SUBJ:3MP + OBJ:2D
+wkm	awokum	PVSuff-awh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2MP
+wkn	awokun~a	PVSuff-awh	they [VERB] + you	PERF + SUBJ:3MP + OBJ:2FP
+wny	awoniy	PVSuff-awh	they [VERB] + me	PERF + SUBJ:3MP + OBJ:1S
+wnA	awonA	PVSuff-awh	they [VERB] + us	PERF + SUBJ:3MP + OBJ:1P
+		IVSuff-0_ind	[INDIC]	IMPF + MOOD:INDIC
+		IVSuff-0_sub	[SUBJUNC]	IMPF + MOOD:SUBJUNC
+		IVSuff-0_jus	[JUSSIVE]	IMPF + MOOD:JUSSIVE
+	u	IVSuff-u	[INDIC]	IMPF + MOOD:INDIC
+	a	IVSuff-a	[SUBJUNC]	IMPF + MOOD:SUBJUNC
+	o	IVSuff-o	[JUSSIVE]	IMPF + MOOD:JUSSIVE
+	a	IVSuff-a_jus	[JUSSIVE]	IMPF + MOOD:JUSSIVE
+h	hi	IVSuff-hi_ind	[INDIC] + it/him	IMPF + MOOD:INDIC + OBJ:3MS
+hmA	himA	IVSuff-hi_ind	[INDIC] + them [DU]	IMPF + MOOD:INDIC + OBJ:3D
+hm	him	IVSuff-hi_ind	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3MP
+hA	hA	IVSuff-hi_ind	[INDIC] + her/it/them	IMPF + MOOD:INDIC + OBJ:3FS
+hn	hin~a	IVSuff-hi_ind	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3FP
+h	hi	IVSuff-hi_jus	[JUSSIVE] + it/him	IMPF + MOOD:JUSSIVE + OBJ:3MS
+hmA	himA	IVSuff-hi_jus	[JUSSIVE] + them [DU]	IMPF + MOOD:JUSSIVE + OBJ:3D
+hm	him	IVSuff-hi_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3MP
+hA	hA	IVSuff-hi_jus	[JUSSIVE] + her/it/them	IMPF + MOOD:JUSSIVE + OBJ:3FS
+hn	hin~a	IVSuff-hi_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3FP
+h	hu	IVSuff-h_ind	[INDIC] + it/him	IMPF + MOOD:INDIC + OBJ:3MS
+hmA	humA	IVSuff-h_ind	[INDIC] + them [DU]	IMPF + MOOD:INDIC + OBJ:3D
+hm	hum	IVSuff-h_ind	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3MP
+hA	hA	IVSuff-h_ind	[INDIC] + her/it/them	IMPF + MOOD:INDIC + OBJ:3FS
+hn	hun~a	IVSuff-h_ind	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3FP
+h	hu	IVSuff-h_sub	[SUBJUNC] + it/him	IMPF + MOOD:SUBJUNC + OBJ:3MS
+hmA	humA	IVSuff-h_sub	[SUBJUNC] + them [DU]	IMPF + MOOD:SUBJUNC + OBJ:3D
+hm	hum	IVSuff-h_sub	[SUBJUNC] + them	IMPF + MOOD:SUBJUNC + OBJ:3MP
+hA	hA	IVSuff-h_sub	[SUBJUNC] + her/it/them	IMPF + MOOD:SUBJUNC + OBJ:3FS
+hn	hun~a	IVSuff-h_sub	[SUBJUNC] + them	IMPF + MOOD:SUBJUNC + OBJ:3FP
+h	hu	IVSuff-h_jus	[JUSSIVE] + it/him	IMPF + MOOD:JUSSIVE + OBJ:3MS
+hmA	humA	IVSuff-h_jus	[JUSSIVE] + them [DU]	IMPF + MOOD:JUSSIVE + OBJ:3D
+hm	hum	IVSuff-h_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3MP
+hA	hA	IVSuff-h_jus	[JUSSIVE] + her/it/them	IMPF + MOOD:JUSSIVE + OBJ:3FS
+hn	hun~a	IVSuff-h_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3FP
+h	uhu	IVSuff-uh	[INDIC] + it/him	IMPF + MOOD:INDIC + OBJ:3MS
+hmA	uhumA	IVSuff-uh	[INDIC] + them [DU]	IMPF + MOOD:INDIC + OBJ:3D
+hm	uhum	IVSuff-uh	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3MP
+hA	uhA	IVSuff-uh	[INDIC] + her/it/them	IMPF + MOOD:INDIC + OBJ:3FS
+hn	uhun~a	IVSuff-uh	[INDIC] + them	IMPF + MOOD:INDIC + OBJ:3FP
+h	ahu	IVSuff-ah	[SUBJUNC] + it/him	IMPF + MOOD:SUBJUNC + OBJ:3MS
+hmA	ahumA	IVSuff-ah	[SUBJUNC] + them [DU]	IMPF + MOOD:SUBJUNC + OBJ:3D
+hm	ahum	IVSuff-ah	[SUBJUNC] + them	IMPF + MOOD:SUBJUNC + OBJ:3MP
+hA	ahA	IVSuff-ah	[SUBJUNC] + her/it/them	IMPF + MOOD:SUBJUNC + OBJ:3FS
+hn	ahun~a	IVSuff-ah	[SUBJUNC] + them	IMPF + MOOD:SUBJUNC + OBJ:3FP
+h	ohu	IVSuff-oh	[JUSSIVE] + it/him	IMPF + MOOD:JUSSIVE + OBJ:3MS
+hmA	ohumA	IVSuff-oh	[JUSSIVE] + them [DU]	IMPF + MOOD:JUSSIVE + OBJ:3D
+hm	ohum	IVSuff-oh	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3MP
+hA	ohA	IVSuff-oh	[JUSSIVE] + her/it/them	IMPF + MOOD:JUSSIVE + OBJ:3FS
+hn	ohun~a	IVSuff-oh	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3FP
+h	ahu	IVSuff-ah_jus	[JUSSIVE] + it/him	IMPF + MOOD:JUSSIVE + OBJ:3MS
+hmA	ahumA	IVSuff-ah_jus	[JUSSIVE] + them [DU]	IMPF + MOOD:JUSSIVE + OBJ:3D
+hm	ahum	IVSuff-ah_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3MP
+hA	ahA	IVSuff-ah_jus	[JUSSIVE] + her/it/them	IMPF + MOOD:JUSSIVE + OBJ:3FS
+hn	ahun~a	IVSuff-ah_jus	[JUSSIVE] + them	IMPF + MOOD:JUSSIVE + OBJ:3FP
+k	ka	IVSuff-k_ind	[INDICATIVE] + you [SG]	IMPF + MOOD:INDIC + OBJ:2MS
+k	ki	IVSuff-k_ind	[INDICATIVE] + you [SG]	IMPF + MOOD:INDIC + OBJ:2FS
+kmA	kumA	IVSuff-k_ind	[INDIC] + you [DU]	IMPF + MOOD:INDIC + OBJ:2D
+km	kum	IVSuff-k_ind	[INDIC] + you [PL]	IMPF + MOOD:INDIC + OBJ:2MP
+kn	kun~a	IVSuff-k_ind	[INDIC] + you [FEM PL]	IMPF + MOOD:INDIC + OBJ:2FP
+k	ka	IVSuff-k_sub	[SUBJUNCTIVE] + you [SG]	IMPF + MOOD:SUBJUNC + OBJ:2MS
+k	ki	IVSuff-k_sub	[SUBJUNCTIVE] + you [SG]	IMPF + MOOD:SUBJUNC + OBJ:2FS
+kmA	kumA	IVSuff-k_sub	[SUBJUNC] + you [DU]	IMPF + MOOD:SUBJUNC + OBJ:2D
+km	kum	IVSuff-k_sub	[SUBJUNC] + you [PL]	IMPF + MOOD:SUBJUNC + OBJ:2MP
+kn	kun~a	IVSuff-k_sub	[SUBJUNC] + you [FEM PL]	IMPF + MOOD:SUBJUNC + OBJ:2FP
+k	ka	IVSuff-k_jus	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2MS
+k	ki	IVSuff-k_jus	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2FS
+kmA	kumA	IVSuff-k_jus	[JUSSIVE] + you [DU]	IMPF + MOOD:JUSSIVE + OBJ:2D
+km	kum	IVSuff-k_jus	[JUSSIVE] + you [PL]	IMPF + MOOD:JUSSIVE + OBJ:2MP
+kn	kun~a	IVSuff-k_jus	[JUSSIVE] + you [FEM PL]	IMPF + MOOD:JUSSIVE + OBJ:2FP
+k	uka	IVSuff-uk	[INDICATIVE] + you [SG]	IMPF + MOOD:INDIC + OBJ:2MS
+k	uki	IVSuff-uk	[INDICATIVE] + you [SG]	IMPF + MOOD:INDIC + OBJ:2FS
+kmA	ukumA	IVSuff-uk	[INDIC] + you [DU]	IMPF + MOOD:INDIC + OBJ:2D
+km	ukum	IVSuff-uk	[INDIC] + you [PL]	IMPF + MOOD:INDIC + OBJ:2MP
+kn	ukun~a	IVSuff-uk	[INDIC] + you [FEM PL]	IMPF + MOOD:INDIC + OBJ:2FP
+k	aka	IVSuff-ak	[SUBJUNCTIVE] + you [SG]	IMPF + MOOD:SUBJUNC + OBJ:2MS
+k	aki	IVSuff-ak	[SUBJUNCTIVE] + you [SG]	IMPF + MOOD:SUBJUNC + OBJ:2FS
+kmA	akumA	IVSuff-ak	[SUBJUNC] + you [DU]	IMPF + MOOD:SUBJUNC + OBJ:2D
+km	akum	IVSuff-ak	[SUBJUNC] + you [PL]	IMPF + MOOD:SUBJUNC + OBJ:2MP
+kn	akun~a	IVSuff-ak	[SUBJUNC] + you [FEM PL]	IMPF + MOOD:SUBJUNC + OBJ:2FP
+k	oka	IVSuff-ok	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2MS
+k	oki	IVSuff-ok	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2FS
+kmA	okumA	IVSuff-ok	[JUSSIVE] + you [DU]	IMPF + MOOD:JUSSIVE + OBJ:2D
+km	okum	IVSuff-ok	[JUSSIVE] + you [PL]	IMPF + MOOD:JUSSIVE + OBJ:2MP
+kn	okun~a	IVSuff-ok	[JUSSIVE] + you [FEM PL]	IMPF + MOOD:JUSSIVE + OBJ:2FP
+k	aka	IVSuff-ak_jus	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2MS
+k	aki	IVSuff-ak_jus	[JUSSIVE] + you [SG]	IMPF + MOOD:JUSSIVE + OBJ:2FS
+kmA	akumA	IVSuff-ak_jus	[JUSSIVE] + you [DU]	IMPF + MOOD:JUSSIVE + OBJ:2D
+km	akum	IVSuff-ak_jus	[JUSSIVE] + you [PL]	IMPF + MOOD:JUSSIVE + OBJ:2MP
+kn	akun~a	IVSuff-ak_jus	[JUSSIVE] + you [FEM PL]	IMPF + MOOD:JUSSIVE + OBJ:2FP
+ny	niy	IVSuff-ny-nA_ind	[INDIC] + me	IMPF + MOOD:INDIC + OBJ:1S
+nA	nA	IVSuff-ny-nA_ind	[INDIC] + us	IMPF + MOOD:INDIC + OBJ:1P
+ny	niy	IVSuff-ny-nA_sub	[SUBJUNC] + me	IMPF + MOOD:SUBJUNC + OBJ:1S
+nA	nA	IVSuff-ny-nA_sub	[SUBJUNC] + us	IMPF + MOOD:SUBJUNC + OBJ:1P
+ny	niy	IVSuff-ny-nA_jus	[INDIC] + me	IMPF + MOOD:JUSSIVE + OBJ:1S
+nA	nA	IVSuff-ny-nA_jus	[INDIC] + us	IMPF + MOOD:JUSSIVE + OBJ:1P
+ny	uniy	IVSuff-uny-nA	[INDIC] + me	IMPF + MOOD:INDIC + OBJ:1S
+nA	unA	IVSuff-uny-nA	[INDIC] + us	IMPF + MOOD:INDIC + OBJ:1P
+ny	aniy	IVSuff-any-nA	[SUBJUNC] + me	IMPF + MOOD:SUBJUNC + OBJ:1S
+nA	anA	IVSuff-any-nA	[SUBJUNC] + us	IMPF + MOOD:SUBJUNC + OBJ:1P
+ny	oniy	IVSuff-ony-nA	[JUSSIVE] + me	IMPF + MOOD:JUSSIVE + OBJ:1S
+nA	onA	IVSuff-ony-nA	[JUSSIVE] + us	IMPF + MOOD:JUSSIVE + OBJ:1P
+y	~iy	IVSuff-~ny-nA	[JUSSIVE] + me	IMPF + MOOD:JUSSIVE + OBJ:1S
+A	~A	IVSuff-~ny-nA	[JUSSIVE] + us	IMPF + MOOD:JUSSIVE + OBJ:1P
+ny	aniy	IVSuff-any-nA_jus	[JUSSIVE] + me	IMPF + MOOD:JUSSIVE + OBJ:1S
+nA	anA	IVSuff-any-nA_jus	[JUSSIVE] + us	IMPF + MOOD:JUSSIVE + OBJ:1P
+n	ona	IVSuff-n	[FEM PL]	IMPF + SUBJ:FP
+	~a	IVSuff-~n	[FEM PL]	IMPF + SUBJ:FP
+nh	onahu	IVSuff-nh	[FEM PL] + it/him	IMPF + SUBJ:FP + OBJ:3MS
+nhmA	onahumA	IVSuff-nh	[FEM PL] + them [DU]	IMPF + SUBJ:FP + OBJ:3D
+nhm	onahum	IVSuff-nh	[FEM PL] + them	IMPF + SUBJ:FP + OBJ:3MP
+nhA	onahA	IVSuff-nh	[FEM PL] + her/it/them	IMPF + SUBJ:FP + OBJ:3FS
+nhn	onahun~a	IVSuff-nh	[FEM PL] + them	IMPF + SUBJ:FP + OBJ:3FP
+nny	onaniy	IVSuff-nh	[FEM PL] + me	IMPF + SUBJ:FP + OBJ:1S
+nnA	onanA	IVSuff-nh	[FEM PL] + us	IMPF + SUBJ:FP + OBJ:1P
+h	~ahu	IVSuff-~nh	[FEM PL] + it/him	IMPF + SUBJ:FP + OBJ:3MS
+hmA	~ahumA	IVSuff-~nh	[FEM PL] + them [DU]	IMPF + SUBJ:FP + OBJ:3D
+hm	~ahum	IVSuff-~nh	[FEM PL] + them	IMPF + SUBJ:FP + OBJ:3MP
+hA	~ahA	IVSuff-~nh	[FEM PL] + her/it/them	IMPF + SUBJ:FP + OBJ:3FS
+hn	~ahun~a	IVSuff-~nh	[FEM PL] + them	IMPF + SUBJ:FP + OBJ:3FP
+ny	~aniy	IVSuff-~nh	[FEM PL] + me	IMPF + SUBJ:FP + OBJ:1S
+nA	~anA	IVSuff-~nh	[FEM PL] + us	IMPF + SUBJ:FP + OBJ:1P
+nk	onaka	IVSuff-nk	[FEM PL] + you [SG]	IMPF + SUBJ:3FP + OBJ:2MS
+nk	onaki	IVSuff-nk	[FEM PL] + you [SG]	IMPF + SUBJ:3FP + OBJ:2FS
+nkmA	onakumA	IVSuff-nk	[FEM PL] + you [DU]	IMPF + SUBJ:3FP + OBJ:2D
+nkm	onakum	IVSuff-nk	[FEM PL] + you [PL]	IMPF + SUBJ:3FP + OBJ:2MP
+nkn	onakun~a	IVSuff-nk	[FEM PL] + you [FEM PL]	IMPF + SUBJ:3FP + OBJ:2FP
+k	~aka	IVSuff-~nk	[FEM PL] + you [SG]	IMPF + SUBJ:3FP + OBJ:2MS
+k	~aki	IVSuff-~nk	[FEM PL] + you [SG]	IMPF + SUBJ:3FP + OBJ:2FS
+kmA	~akumA	IVSuff-~nk	[FEM PL] + you [DU]	IMPF + SUBJ:3FP + OBJ:2D
+km	~akum	IVSuff-~nk	[FEM PL] + you [PL]	IMPF + SUBJ:3FP + OBJ:2MP
+kn	~akun~a	IVSuff-~nk	[FEM PL] + you [FEM PL]	IMPF + SUBJ:3FP + OBJ:2FP
+A	A	IVSuff-A	[DU]	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE
+		IVSuff-|	[DU]	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE
+Ah	Ahu	IVSuff-Ah	[DU] + it/him	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+AhmA	AhumA	IVSuff-Ah	[DU] + them [DU]	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+Ahm	Ahum	IVSuff-Ah	[DU] + them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+AhA	AhA	IVSuff-Ah	[DU] + her/it/them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+Ahn	Ahun~a	IVSuff-Ah	[DU] + them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+Any	Aniy	IVSuff-Ah	[DU] + me	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+AnA	AnA	IVSuff-Ah	[DU] + us	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+h	hu	IVSuff-|h	[DU] + it/him	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+hmA	humA	IVSuff-|h	[DU] + them [DU]	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+hm	hum	IVSuff-|h	[DU] + them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+hA	hA	IVSuff-|h	[DU] + her/it/them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+hn	hun~a	IVSuff-|h	[DU] + them	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+ny	niy	IVSuff-|h	[DU] + me	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+nA	nA	IVSuff-|h	[DU] + us	IMPF + SUBJ:D + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+Ak	Aka	IVSuff-Ak	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2MS
+Ak	Aki	IVSuff-Ak	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2FS
+AkmA	AkumA	IVSuff-Ak	[DU] + you [DU]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2D
+Akm	Akum	IVSuff-Ak	[DU] + you [PL]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2MP
+Akn	Akun~a	IVSuff-Ak	[DU] + you [FEM PL]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2FP
+k	ka	IVSuff-|k	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2MS
+k	ki	IVSuff-|k	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2FS
+kmA	kumA	IVSuff-|k	[DU] + you [DU]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2D
+km	kum	IVSuff-|k	[DU] + you [PL]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2MP
+kn	kun~a	IVSuff-|k	[DU] + you [FEM PL]	IMPF + SUBJ:3D + MOOD:SUBJUNC/JUSSIVE + OBJ:2FP
+An	Ani	IVSuff-An	[DU]	IMPF + SUBJ:D + MOOD:INDIC
+n	ni	IVSuff-|n	[DU]	IMPF + SUBJ:D + MOOD:INDIC
+Anh	Anihi	IVSuff-Anh	[DU] + it/him	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3MS
+AnhmA	AnihimA	IVSuff-Anh	[DU] + them [DU]	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3D
+Anhm	Anihim	IVSuff-Anh	[DU] + them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3MP
+AnhA	AnihA	IVSuff-Anh	[DU] + her/it/them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3FS
+Anhn	Anihin~a	IVSuff-Anh	[DU] + them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3FP
+Anny	Aniniy	IVSuff-Anh	[DU] + me	IMPF + SUBJ:D + MOOD:INDIC + OBJ:1S
+AnnA	AninA	IVSuff-Anh	[DU] + us	IMPF + SUBJ:D + MOOD:INDIC + OBJ:1P
+nh	nihi	IVSuff-|nh	[DU] + it/him	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3MS
+nhmA	nihimA	IVSuff-|nh	[DU] + them [DU]	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3D
+nhm	nihim	IVSuff-|nh	[DU] + them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3MP
+nhA	nihA	IVSuff-|nh	[DU] + her/it/them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3FS
+nhn	nihin~a	IVSuff-|nh	[DU] + them	IMPF + SUBJ:D + MOOD:INDIC + OBJ:3FP
+nny	niniy	IVSuff-|nh	[DU] + me	IMPF + SUBJ:D + MOOD:INDIC + OBJ:1S
+nnA	ninA	IVSuff-|nh	[DU] + us	IMPF + SUBJ:D + MOOD:INDIC + OBJ:1P
+Ank	Anika	IVSuff-Ank	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2MS
+Ank	Aniki	IVSuff-Ank	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2FS
+AnkmA	AnikumA	IVSuff-Ank	[DU] + you [DU]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2D
+Ankm	Anikum	IVSuff-Ank	[DU] + you [PL]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2MP
+Ankn	Anikun~a	IVSuff-Ank	[DU] + you [FEM PL]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2FP
+nk	nika	IVSuff-|nk	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2MS
+nk	niki	IVSuff-|nk	(both) + you [SG]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2FS
+nkmA	nikumA	IVSuff-|nk	[DU] + you [DU]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2D
+nkm	nikum	IVSuff-|nk	[DU] + you [PL]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2MP
+nkn	nikun~a	IVSuff-|nk	[DU] + you [FEM PL]	IMPF + SUBJ:3D + MOOD:INDIC + OBJ:2FP
+wA	uwA	IVSuff-wA	[PL]	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE
+wA	awoA	IVSuff-awA	[PL]	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE
+wh	uwhu	IVSuff-wh	[PL] + it/him	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+whmA	uwhumA	IVSuff-wh	[PL] + them [DU]	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+whm	uwhum	IVSuff-wh	[PL] + them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+whA	uwhA	IVSuff-wh	[PL] + her/it/them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+whn	uwhun~a	IVSuff-wh	[PL] + them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+wny	uwniy	IVSuff-wh	[PL] + me	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+wnA	uwnA	IVSuff-wh	[PL] + us	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+wh	awohu	IVSuff-awh	[PL] + it/him	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+whmA	awohumA	IVSuff-awh	[PL] + them [DU]	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+whm	awohum	IVSuff-awh	[PL] + them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+whA	awohA	IVSuff-awh	[PL] + her/it/them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+whn	awohun~a	IVSuff-awh	[PL] + them	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+wny	awoniy	IVSuff-awh	[PL] + me	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+wnA	awonA	IVSuff-awh	[PL] + us	IMPF + SUBJ:MP + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+wk	uwka	IVSuff-wk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2MS
+wk	uwki	IVSuff-wk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2FS
+wkmA	uwkumA	IVSuff-wk	[PL] + you [DU]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2D
+wkm	uwkum	IVSuff-wk	[PL] + you [PL]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2MP
+wkn	uwkun~a	IVSuff-wk	[PL] + you [FEM PL]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2FP
+wk	awoka	IVSuff-awk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2MS
+wk	awoki	IVSuff-awk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2FS
+wkmA	awokumA	IVSuff-awk	[PL] + you [DU]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2D
+wkm	awokum	IVSuff-awk	[PL] + you [PL]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2MP
+wkn	awokun~a	IVSuff-awk	[PL] + you [FEM PL]	IMPF + SUBJ:3MP + MOOD:SUBJUNC/JUSSIVE + OBJ:2FP
+wn	uwna	IVSuff-wn	[PL]	IMPF + SUBJ:MP + MOOD:INDIC
+wn	awona	IVSuff-awn	[PL]	IMPF + SUBJ:MP + MOOD:INDIC
+wnh	uwnahu	IVSuff-wnh	[PL] + it/him	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3MS
+wnhmA	uwnahumA	IVSuff-wnh	[PL] + them [DU]	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3D
+wnhm	uwnahum	IVSuff-wnh	[PL] + them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3MP
+wnhA	uwnahA	IVSuff-wnh	[PL] + her/it/them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3FS
+wnhn	uwnahun~a	IVSuff-wnh	[PL] + them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3FP
+wnny	uwnaniy	IVSuff-wnh	[PL] + me	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:1S
+wnnA	uwnanA	IVSuff-wnh	[PL] + us	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:1P
+wnh	awonahu	IVSuff-awnh	[PL] + it/him	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3MS
+wnhmA	awonahumA	IVSuff-awnh	[PL] + them [DU]	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3D
+wnhm	awonahum	IVSuff-awnh	[PL] + them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3MP
+wnhA	awonahA	IVSuff-awnh	[PL] + her/it/them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3FS
+wnhn	awonahun~a	IVSuff-awnh	[PL] + them	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:3FP
+wnny	awonaniy	IVSuff-awnh	[PL] + me	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:1S
+wnnA	awonanA	IVSuff-awnh	[PL] + us	IMPF + SUBJ:MP + MOOD:INDIC + OBJ:1P
+wnk	uwnaka	IVSuff-wnk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2MS
+wnk	uwnaki	IVSuff-wnk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2FS
+wnkmA	uwnakumA	IVSuff-wnk	[PL] + you [DU]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2D
+wnkm	uwnakum	IVSuff-wnk	[PL] + you [PL]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2MP
+wnkn	uwnakun~a	IVSuff-wnk	[PL] + you [FEM PL]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2FP
+wnk	awonaka	IVSuff-awnk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2MS
+wnk	awonaki	IVSuff-awnk	[PL] + you [SG]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2FS
+wnkmA	awonakumA	IVSuff-awnk	[PL] + you [DU]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2D
+wnkm	awonakum	IVSuff-awnk	[PL] + you [PL]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2MP
+wnkn	awonakun~a	IVSuff-awnk	[PL] + you [FEM PL]	IMPF + SUBJ:3MP + MOOD:INDIC + OBJ:2FP
+y	iy	IVSuff-y	[FEM SG]	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE
+y	ayo	IVSuff-ay	[FEM SG]	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE
+yh	iyhi	IVSuff-yh	[FEM SG] + it/him	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+yhmA	iyhimA	IVSuff-yh	[FEM SG] + them [DU]	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+yhm	iyhim	IVSuff-yh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+yhA	iyhA	IVSuff-yh	[FEM SG] + her/it/them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+yhn	iyhin~a	IVSuff-yh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+yny	iyniy	IVSuff-yh	[FEM SG] + me	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+ynA	iynA	IVSuff-yh	[FEM SG] + us	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+yh	ayohi	IVSuff-ayh	[FEM SG] + it/him	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3MS
+yhmA	ayohimA	IVSuff-ayh	[FEM SG] + them [DU]	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3D
+yhm	ayohim	IVSuff-ayh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3MP
+yhA	ayohA	IVSuff-ayh	[FEM SG] + her/it/them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3FS
+yhn	ayohin~a	IVSuff-ayh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:3FP
+yny	ayoniy	IVSuff-ayh	[FEM SG] + me	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:1S
+ynA	ayonA	IVSuff-ayh	[FEM SG] + us	IMPF + SUBJ:2FS + MOOD:SUBJUNC/JUSSIVE + OBJ:1P
+yn	iyna	IVSuff-yn	[FEM SG]	IMPF + SUBJ:2FS + MOOD:INDIC
+yn	ayona	IVSuff-ayn	[FEM SG]	IMPF + SUBJ:2FS + MOOD:INDIC
+ynh	iynahu	IVSuff-ynh	[FEM SG] + it/him	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3MS
+ynhmA	iynahumA	IVSuff-ynh	[FEM SG] + them [DU]	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3D
+ynhm	iynahum	IVSuff-ynh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3MP
+ynhA	iynahA	IVSuff-ynh	[FEM SG] + her/it/them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3FS
+ynhn	iynahun~a	IVSuff-ynh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3FP
+ynny	iynaniy	IVSuff-ynh	[FEM SG] + me	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:1S
+ynnA	iynanA	IVSuff-ynh	[FEM SG] + us	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:1P
+ynh	ayonahu	IVSuff-aynh	[FEM SG] + it/him	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3MS
+ynhmA	ayonahumA	IVSuff-aynh	[FEM SG] + them [DU]	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3D
+ynhm	ayonahum	IVSuff-aynh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3MP
+ynhA	ayonahA	IVSuff-aynh	[FEM SG] + her/it/them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3FS
+ynhn	ayonahun~a	IVSuff-aynh	[FEM SG] + them	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:3FP
+ynny	ayonaniy	IVSuff-aynh	[FEM SG] + me	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:1S
+ynnA	ayonanA	IVSuff-aynh	[FEM SG] + us	IMPF + SUBJ:2FS + MOOD:INDIC + OBJ:1P
+h	hi	FWSuff-hi	it/him	PRON_3MS
+hmA	himA	FWSuff-hi	them [DU]	PRON_3D
+hm	him	FWSuff-hi	them [PL]	PRON_3MP
+hA	hA	FWSuff-hi	her/it/them	PRON_3FS
+hn	hin~a	FWSuff-hi	them [FEM PL]	PRON_3FP
+h	hu	FWSuff-hu-he	it/he	PRON_3MS
+hmA	humA	FWSuff-hu-he	they [DU]	PRON_3D
+hm	hum	FWSuff-hu-he	they [PL]	PRON_3MP
+hA	hA	FWSuff-hu-he	she/it/they	PRON_3FS
+hn	hun~a	FWSuff-hu-he	they [FEM PL]	PRON_3FP
+h	hu	FWSuff-hu-him	it/him	PRON_3MS
+hmA	humA	FWSuff-hu-him	them [DU]	PRON_3D
+hm	hum	FWSuff-hu-him	them [PL]	PRON_3MP
+hA	hA	FWSuff-hu-him	her/it/them	PRON_3FS
+hn	hun~a	FWSuff-hu-him	them [FEM PL]	PRON_3FP
+k	ka	FWSuff-k	you [SG]	PRON_2MS
+k	ki	FWSuff-k	you [SG]	PRON_2FS
+kmA	kumA	FWSuff-k	you [DU]	PRON_2D
+km	kum	FWSuff-k	you [PL]	PRON_2MP
+kn	kun~a	FWSuff-k	you [FEM PL]	PRON_2FP
+	~a	FWSuff-~a	me	PRON_1S
+y	ya	FWSuff-ya	me	PRON_1S
+ny	niy	FWSuff-niy-I	I	PRON_1S
+ny	niy	FWSuff-niy-me	me	PRON_1S
+y	iy	FWSuff-iy-I	I	PRON_1S
+y	iy	FWSuff-iy-me	me	PRON_1S
+y	~iy	FWSuff-~iy	me	PRON_1S
+nA	nA	FWSuff-nA-us	us	PRON_1P
+nA	nA	FWSuff-nA-we	we	PRON_1P
+A	A	FWSuff-A	we	PRON_1P
+A	~A	FWSuff-~A	us	PRON_1P

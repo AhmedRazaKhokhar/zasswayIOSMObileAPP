@@ -1,0 +1,17 @@
+baby_sc -> fast_shot_sc
+bright_stage_sc -> hdr_sc
+document_sc -> utility_sc
+fireworks_sc -> fast_shot_sc
+foliage_sc -> awb_sc
+others_000_sc -> others_sc
+others_001_sc -> others_sc
+others_002_sc -> others_sc
+others_003_sc -> others_sc
+others_004_sc -> others_sc
+pet_sc -> fast_shot_sc
+point_light_sources_sc -> focus_sc
+qr_sc -> utility_sc
+sky_sc -> awb_sc
+snow_sc -> awb_sc
+sport_sc -> fast_shot_sc
+sunset_sunrise_sc -> hdr_sc

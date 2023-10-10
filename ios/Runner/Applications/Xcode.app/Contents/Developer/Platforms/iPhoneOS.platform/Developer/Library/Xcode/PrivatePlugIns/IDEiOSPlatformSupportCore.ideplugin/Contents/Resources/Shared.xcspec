@@ -1,0 +1,151 @@
+// Copyright (c) 2018 Apple Inc. All rights reserved.
+(
+    {
+        Type = ProductType;
+        Identifier = "com.apple.product-type.application.messages";
+        BasedOn = "com.apple.product-type.application";
+        DisableSchemeAutocreation = YES;
+        IsCapabilitiesUnsupported = YES;
+        WantsSimpleTargetEditing = YES;
+        BuildPhaseFileRefAdditions = {
+            "com.apple.buildphase.resources" = (
+                {
+                    Path = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationStub/LaunchScreen.storyboard";
+                    RegionVariantName = Base;
+                }
+            );
+        };
+        DefaultBuildProperties = {
+            MESSAGES_APPLICATION_PRODUCT_BINARY_SOURCE_PATH = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationStub/MessagesApplicationStub";
+            ASSETCATALOG_COMPILER_TARGET_STICKERS_ICON_ROLE = "host-app";
+        };
+        AllowedBuildPhases = (
+            "com.apple.buildphase.resources",
+            "com.apple.buildphase.copy-files",
+            "com.apple.buildphase.shell-script",
+        );
+        InfoPlistAdditions = {
+            LSApplicationLaunchProhibited = YES;
+        };
+        SupportsHostingTests = NO;
+        SupportsBeingUITestTarget = NO;
+    },
+
+    {
+        Type = ProductType;
+        Identifier = "com.apple.product-type.application.on-demand-install-capable";
+        BasedOn = "com.apple.product-type.application";
+        Name = "App Clip";
+        Description = "App Clip";
+        DefaultBuildProperties = {
+            ENABLE_ON_DEMAND_RESOURCES = NO;
+            ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = none; // Don't include standalone icons to keep size down
+            PRODUCT_SPECIFIC_LDFLAGS = "$(inherited) -framework AppClip";
+            SKIP_INSTALL = YES;
+        };
+        DefaultEntitlements = {
+            "com.apple.developer.on-demand-install-capable" = YES;
+        };
+        SupportsOnDemandResources = NO;
+        IsEmbeddable = YES;
+        BuildPhaseInjectionsWhenEmbedding = (
+            {
+                BuildPhase = "CopyFiles";
+                Name = "Embed App Clips";
+                RunOnlyForDeploymentPostprocessing = NO;
+                DstSubFolderSpec = 16;
+                DstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+            }
+        );
+    },
+
+    {
+        Type = ProductType;
+        Identifier = "com.apple.product-type.application.watchapp2-container";
+        BasedOn = "com.apple.product-type.application";
+        DisableSchemeAutocreation = YES;
+        IsCapabilitiesUnsupported = YES;
+        WantsSimpleTargetEditing = YES;
+        WantsInfoEditorHidden = YES;
+        BuildPhaseFileRefAdditions = {
+            "com.apple.buildphase.resources" = (
+                {
+                    Path = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationStub/MessagesApplicationStub.xcassets";
+                },
+                {
+                    Path = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationStub/LaunchScreen.storyboard";
+                    RegionVariantName = Base;
+                }
+            );
+        };
+        DefaultBuildProperties = {
+            ASSETCATALOG_COMPILER_APPICON_NAME = MessagesApplicationStub;
+            EXCLUDED_ARCHS = arm64e;
+            GENERATE_INFOPLIST_FILE = YES;
+            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            PRODUCT_BINARY_SOURCE_PATH = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationStub/MessagesApplicationStub";
+            THIN_PRODUCT_STUB_BINARY = YES;
+        };
+        AllowedBuildPhases = (
+            "com.apple.buildphase.resources",
+            "com.apple.buildphase.copy-files",
+            "com.apple.buildphase.shell-script",
+        );
+        InfoPlistAdditions = {
+            LSApplicationLaunchProhibited = YES;
+            ITSWatchOnlyContainer = YES;
+            UILaunchStoryboardName = LaunchScreen;
+        };
+        SupportsHostingTests = NO;
+        SupportsBeingUITestTarget = NO;
+    },
+
+    {
+        Type = ProductType;
+        Identifier = "com.apple.product-type.app-extension.messages";
+        BasedOn = "com.apple.product-type.app-extension";
+        DefaultBuildProperties = {
+            ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default; // IconServices reads icons from Assets.car for Messages
+            ASSETCATALOG_COMPILER_INCLUDE_STICKER_CONTENT = YES;
+            ASSETCATALOG_COMPILER_TARGET_STICKERS_ICON_ROLE = "extension";
+        };
+    },
+
+    {
+        Type = ProductType;
+        Identifier = "com.apple.product-type.app-extension.messages-sticker-pack";
+        BasedOn = "com.apple.product-type.app-extension";
+        IsCapabilitiesUnsupported = YES;
+        WantsSimpleTargetEditing = YES;
+        DefaultBuildProperties = {
+            MESSAGES_APPLICATION_EXTENSION_PRODUCT_BINARY_SOURCE_PATH = "$(PLATFORM_DIR)/Library/Application Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub";
+            ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default; // IconServices reads icons from Assets.car for Messages
+            ASSETCATALOG_COMPILER_INCLUDE_STICKER_CONTENT = YES;
+            ASSETCATALOG_COMPILER_TARGET_STICKERS_ICON_ROLE = "extension";
+            ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX = "$(PRODUCT_BUNDLE_IDENTIFIER).sticker-pack.";
+            THIN_PRODUCT_STUB_BINARY = YES;
+        };
+        AllowedBuildPhases = (
+            "com.apple.buildphase.resources",
+            "com.apple.buildphase.shell-script",
+        );
+        InfoPlistAdditions = {
+            LSApplicationIsStickerProvider = YES;
+        };
+    },
+
+
+    {
+        Type = BuildStep;
+        Identifier = "com.apple.buildstep.copy-messages-application-stub";
+        BuildStepType = AdditionalBuildPhase;
+        Class = "XCBuildStepSpecification_CopyMessagesApplicationStub";
+    },
+
+    {
+        Type = BuildStep;
+        Identifier = "com.apple.buildstep.copy-messages-application-extension-stub";
+        BuildStepType = AdditionalBuildPhase;
+        Class = "XCBuildStepSpecification_CopyMessagesApplicationExtensionStub";
+    },
+)

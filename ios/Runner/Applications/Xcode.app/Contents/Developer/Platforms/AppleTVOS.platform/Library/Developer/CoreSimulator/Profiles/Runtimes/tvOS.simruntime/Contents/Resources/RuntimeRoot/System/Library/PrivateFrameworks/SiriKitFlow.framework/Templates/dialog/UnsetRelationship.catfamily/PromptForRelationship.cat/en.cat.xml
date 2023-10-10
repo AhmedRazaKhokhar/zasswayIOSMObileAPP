@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cat xmlns="urn:apple:names:siri:cat:1.0" id="UnsetRelationship#PromptForRelationship" locale="en">
+  <first>
+    <dialog>I don’t see <var name="relationship" inflect="withIndefArticle"/> in your Contacts. What is your <var name="relationship" inflect="genitive"/> first and last name?</dialog>
+  </first>
+</cat>
