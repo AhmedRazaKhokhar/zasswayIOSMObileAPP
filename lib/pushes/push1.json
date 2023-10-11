@@ -1,0 +1,9 @@
+{
+  "aps" : {
+    "alert" : {
+      "title" : "zasway",
+      "subtitle" : "message from zasway",
+      "body" : "Hello"
+    }
+
+  }}
